@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Algorithm_Kotlin.iml" filepath="$PROJECT_DIR$/Algorithm_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_main.iml" group="Algorithm_Kotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_test.iml" group="Algorithm_Kotlin" />
     </modules>
   </component>
 </project>
