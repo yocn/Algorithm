@@ -6,10 +6,10 @@ import proxy.IAlgoProxy
 import util.LogUtil
 
 fun main(args: Array<String>) {
-    LogUtil.d("hello")
+//    LogUtil.d("hello")
     val algo = DynamicProxy(AlgoTest())
     val IAlgoProxyImpl = AlgoFactory.create(algo)
-    IAlgoProxyImpl.testAlgo(2)
-    IAlgoProxyImpl.testAlgo2()
-    AnnotationExpression().expression(IAlgoProxy::class.java)
+    IAlgoProxyImpl.startPlay("我开始播放")
+    IAlgoProxyImpl.stopPlay()
+//    AnnotationExpression().expression(IAlgoProxy::class.java)
 }

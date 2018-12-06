@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
  */
 public class AnnoParser {
     public void parse(Class clazz) {
+
         Method[] delMethod = clazz.getDeclaredMethods();
         for (Method method : delMethod) {
 

@@ -10,6 +10,19 @@ import java.lang.reflect.Method
 class DynamicProxy(proxyReal: Any) : InvocationHandler {
     var proxyImpl = proxyReal
     override fun invoke(proxy: Any?, method: Method, args: Array<out Any>?): Any {
+
+        LogUtil.d("yocn method-" + method.name)
+        when (method.name) {
+            "startPlay" -> {
+                if (args != null) {
+                    LogicTool.getInstance()?.start(args[0])
+                }
+            }
+            "stopPlay" -> {
+                LogicTool.getInstance()?.stop()
+            }
+        }
+
         if (args == null) {
             LogUtil.d("yocn args1-" + args?.size)
             method.invoke(proxyImpl)
