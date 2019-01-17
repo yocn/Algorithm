@@ -14,6 +14,26 @@ public class ReentrantLockFactory {
     private ArrayList<Product> products = new ArrayList<>();
     private ReentrantLock mReentrantLock = new ReentrantLock();
 
+    private Thread preThread1 = new Thread(() -> {
+        try {
+            LogUtil.Companion.d("preThread1 start");
+            Thread.sleep(1000);
+            LogUtil.Companion.d("preThread1 end");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    });
+
+    private Thread preThread2 = new Thread(() -> {
+        try {
+            LogUtil.Companion.d("preThread2 start");
+            Thread.sleep(1000);
+            LogUtil.Companion.d("preThread2 end");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    });
+
     private Thread consumeThread = new Thread(() -> {
         while (true) {
             mReentrantLock.lock();
@@ -60,6 +80,19 @@ public class ReentrantLockFactory {
     });
 
     public void start() {
+        //Just Test Join，No meaning~
+        preThread1.start();
+        try {
+            preThread1.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        preThread2.start();
+        try {
+            preThread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         consumeThread.start();
         produceThread1.start();
         produceThread2.start();
