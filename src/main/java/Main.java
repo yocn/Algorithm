@@ -1,4 +1,5 @@
 import lock.ATestLock;
+import lock.TestTreeMap;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -30,7 +31,8 @@ public class Main {
 //
 //        System.out.println("1     ->" + map.hashCode() + " v->" + (map.hashCode() >>> 16) + " x->" + (map.hashCode() ^ (map.hashCode() >>> 16)));
 
-        new ATestLock().doTest();
+//        new ATestLock().doTest();
+        new TestTreeMap().test();
     }
 
     static final int hash(Object key) {
