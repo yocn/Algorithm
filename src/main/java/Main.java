@@ -1,6 +1,8 @@
+import algorithm.IsPalindromic;
 import algorithm.LongestSubString;
 import algorithm.Palindromic;
 import algorithm.ZigzagConversion;
+import util.LogUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -79,7 +81,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
 //        ZigzagConversion.test();
 //        Palindromic.test();
-        LongestSubString.test();
+//        LongestSubString.test();
+        IsPalindromic.test();
 
     }
 }

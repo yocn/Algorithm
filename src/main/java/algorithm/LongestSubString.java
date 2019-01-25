@@ -2,6 +2,8 @@ package algorithm;
 
 import util.LogUtil;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
@@ -36,7 +38,8 @@ public class LongestSubString {
         if (s.length() < 2) {
             return s.length();
         }
-        LinkedBlockingQueue<Character> queue = new LinkedBlockingQueue<>();
+        Queue<Character> queue = new LinkedList<>();
+//        LinkedBlockingQueue<Character> queue = new LinkedBlockingQueue<>();
         int maxLength = 0;
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
@@ -46,7 +49,7 @@ public class LongestSubString {
                 if (length > maxLength) {
                     maxLength = length;
                 }
-                while (queue.remove() != currentChar) {
+                for(;queue.remove() != currentChar;){
 
                 }
                 queue.add(currentChar);
