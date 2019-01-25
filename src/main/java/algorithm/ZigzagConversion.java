@@ -52,19 +52,14 @@ public class ZigzagConversion {
         /*一共有多少个chunk*/
         int chunks = length / chunkNums + 1;
         LogUtil.Companion.d("l->" + length + " num->" + chunkNums + " chunks->" + chunks);
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int j = 0; j < numRows; j++) {
-            StringBuffer line = new StringBuffer();
             if (j == 0) {
                 /*第一种情况：*/
                 for (int i = 0; i < chunks; i++) {
                     int index = i * chunkNums;
                     if (index < length) {
                         sb.append(totalChars[index]);
-                        line.append(totalChars[index]);
-                        for (int x = 0; x < numRows; x++) {
-                            line.append(" ");
-                        }
                     }
                 }
             } else if (j == numRows - 1) {
@@ -73,10 +68,6 @@ public class ZigzagConversion {
                     int index = i * chunkNums + (numRows - 1);
                     if (index < length) {
                         sb.append(totalChars[index]);
-                        line.append(totalChars[index]);
-                        for (int x = 0; x < numRows; x++) {
-                            line.append(" ");
-                        }
                     }
                 }
             } else {
@@ -86,17 +77,17 @@ public class ZigzagConversion {
                     int secondIndex = i * chunkNums + (chunkNums - j);
                     if (firstIndex < length) {
                         sb.append(totalChars[firstIndex]);
-                        line.append(totalChars[firstIndex]).append(" ");
                     }
                     if (secondIndex < length) {
                         sb.append(totalChars[secondIndex]);
-                        line.append(totalChars[secondIndex]).append(" ");
                     }
                 }
             }
+
         }
         return sb.toString();
     }
+
 }
 
 
