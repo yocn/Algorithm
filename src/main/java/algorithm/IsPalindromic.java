@@ -1,5 +1,6 @@
 package algorithm;
 
+import sun.rmi.runtime.Log;
 import util.LogUtil;
 
 /**
@@ -37,7 +38,7 @@ import util.LogUtil;
 public class IsPalindromic {
 
     public static void test() {
-        LogUtil.Companion.d("" + isPalindrome(100));
+        LogUtil.Companion.d("" + isPalindrome(Integer.MAX_VALUE));
     }
 
     public static boolean isPalindrome(int x) {
@@ -48,7 +49,51 @@ public class IsPalindromic {
         if (x < 0) {
             return false;
         }
-        LogUtil.Companion.d("" + x / 10);
+        if (x < 10) {
+            return true;
+        }
+        int test = x;
+        int digit = 0;
+        boolean finding = true;
+        for (; finding; ) {
+            long tens = (long) Math.pow(10, digit++);
+            if (x / tens >= 1) {
+                long temp = x % tens;
+                if (digit > 20) {
+                    return false;
+                }
+                LogUtil.Companion.d("tens->" + tens + " temp->" + temp + " x->" + x + " digit->" + digit + " x / tens ->" + (x / tens));
+            } else {
+                finding = false;
+            }
+        }
+        digit--;
+        int[] ints = new int[digit];
+        LogUtil.Companion.d(digit + "---------------" + digit);
+        for (int i = 0; i < digit; i++) {
+            int big = (int) Math.pow(10, (digit - i - 1));
+            int aa = (test / big);
+            test -= aa * big;
+            ints[i] = aa;
+        }
+        int leftIndex = 0;
+        int rightIndex = 0;
+        if (digit % 2 == 0) {
+            /*偶数*/
+            leftIndex = (digit >> 1) - 1;
+            rightIndex = (digit >> 1);
+        } else {
+            leftIndex = rightIndex = (digit >> 1);
+        }
+        if (ints[leftIndex] != ints[rightIndex]) {
+            return false;
+        }
+        while (--leftIndex >= 0 && ++rightIndex < digit) {
+            if (ints[leftIndex] != ints[rightIndex]) {
+                return false;
+            }
+        }
+
         return true;
     }
 
@@ -59,10 +104,10 @@ public class IsPalindromic {
         int length = chars.length;
         if (length % 2 == 0) {
             /*偶数*/
-            leftIndex = length / 2 - 1;
-            rightIndex = length / 2;
+            leftIndex = (length >> 1) - 1;
+            rightIndex = (length >> 1);
         } else {
-            leftIndex = rightIndex = length / 2;
+            leftIndex = rightIndex = (length >> 1);
         }
 
         if (chars[leftIndex] != chars[rightIndex]) {
