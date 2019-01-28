@@ -1,7 +1,4 @@
-import algorithm.IsPalindromic;
-import algorithm.LongestSubString;
-import algorithm.Palindromic;
-import algorithm.ZigzagConversion;
+import algorithm.*;
 import util.LogUtil;
 
 import java.io.ByteArrayInputStream;
@@ -82,7 +79,9 @@ public class Main {
 //        ZigzagConversion.test();
 //        Palindromic.test();
 //        LongestSubString.test();
-        IsPalindromic.test();
+//        IsPalindromic.test();
+//        RegularExpressionMatching.test();
+        EightQueen.test();
 
     }
 }
