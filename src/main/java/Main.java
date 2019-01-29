@@ -1,4 +1,5 @@
 import algorithm.*;
+import proxy.SimpleDyncProxy;
 import util.LogUtil;
 
 import java.io.ByteArrayInputStream;
@@ -81,7 +82,8 @@ public class Main {
 //        LongestSubString.test();
 //        IsPalindromic.test();
 //        RegularExpressionMatching.test();
-        EightQueen.test();
-
+//        EightQueen.test();
+//            new TraverseBinaryTree().test();
+            new SimpleDyncProxy().test();
     }
 }
