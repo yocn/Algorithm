@@ -15,6 +15,7 @@ class AlgoFactory {
             LogUtil.d("yocn interfaces-name->  ${cs[0].simpleName} 2->${cs[0].name} " )
             LogUtil.d("handler.proxyImpl::class->${handler.proxyImpl::class}")
 
+            
             val proxy: IAlgoProxy = Proxy.newProxyInstance(handler.proxyImpl.javaClass.classLoader, cs, handler) as IAlgoProxy
             return proxy
         }
