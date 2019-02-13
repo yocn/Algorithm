@@ -22,12 +22,6 @@ import java.util.List;
  */
 public class Combinations {
     /**
-     * 床头两条TYPE-C充电线带头 一根USB-B线充充电宝的
-     * 我的两件衣服
-     * 洗漱用品化妆品
-     * 我的刮胡刀
-     * 你的身份证
-     *
      * @param n
      * @param k
      * @return
