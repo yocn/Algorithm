@@ -1,16 +1,6 @@
-import algorithm.*;
-import proxy.SimpleDyncProxy;
-import util.LogUtil;
+import proxy.SimpleDynamicProxy;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
-import java.util.Base64;
-import java.util.Random;
-import java.util.zip.GZIPInputStream;
-import java.util.zip.GZIPOutputStream;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -84,6 +74,6 @@ public class Main {
 //        RegularExpressionMatching.test();
 //        EightQueen.test();
 //            new TraverseBinaryTree().test();
-            new SimpleDyncProxy().test();
+            new SimpleDynamicProxy().test();
     }
 }

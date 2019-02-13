@@ -27,6 +27,6 @@ public class Combinations {
      * @return
      */
     public List<List<Integer>> combine(int n, int k) {
-
+        return null;
     }
 }
