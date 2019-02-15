@@ -14,19 +14,20 @@ public class SimpleDynamicProxy {
     public void test() {
         SimpleInterface simpleInterface = createSimple(new SimpleClass1());
         simpleInterface.doThing1();
-        simpleInterface.doThing2();
         SimpleInterface generalInterface1 = createT(new SimpleClass1());
         generalInterface1.doThing1();
-        generalInterface1.doThing2();
         SimpleInterface generalInterface2 = createT(new SimpleClass2());
         generalInterface2.doThing1();
-        generalInterface2.doThing2();
+        LogUtil.Companion.d("doStringThing->" + generalInterface2.doStringThing());
+        LogUtil.Companion.d("doIntThing->" + generalInterface2.doIntThing());
     }
 
     interface SimpleInterface {
         void doThing1();
 
-        void doThing2();
+        String doStringThing();
+
+        int doIntThing();
     }
 
     public class SimpleClass1 implements SimpleInterface {
@@ -37,8 +38,13 @@ public class SimpleDynamicProxy {
         }
 
         @Override
-        public void doThing2() {
-            LogUtil.Companion.d("SimpleClass1 doThing2");
+        public String doStringThing() {
+            return "SimpleClass1 doThing2";
+        }
+
+        @Override
+        public int doIntThing() {
+            return 1001;
         }
     }
 
@@ -50,8 +56,13 @@ public class SimpleDynamicProxy {
         }
 
         @Override
-        public void doThing2() {
-            LogUtil.Companion.d("SimpleClass2 doThing2");
+        public String doStringThing() {
+            return "SimpleClass1 doThing2";
+        }
+
+        @Override
+        public int doIntThing() {
+            return 1221;
         }
     }
 
@@ -84,8 +95,8 @@ public class SimpleDynamicProxy {
                     @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                         LogUtil.Companion.d("dynamic dynamic proxy");
-                        method.invoke(object, args);
-                        return null;
+                        //返回值表示方法的返回值，String或者int或者对象或者其他...
+                        return method.invoke(object, args);
                     }
                 });
         return (T) o;

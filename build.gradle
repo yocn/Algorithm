@@ -22,6 +22,11 @@ repositories {
 }
 
 dependencies {
+    // Okhttp库
+    compile 'com.squareup.okhttp3:okhttp:3.12.0'
+    // Retrofit库
+    compile 'com.squareup.retrofit2:retrofit:2.5.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.5.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

@@ -1,4 +1,5 @@
 import proxy.SimpleDynamicProxy;
+import retrofit.TestRetrofit;
 
 import java.io.IOException;
 
@@ -75,5 +76,6 @@ public class Main {
 //        EightQueen.test();
 //            new TraverseBinaryTree().test();
             new SimpleDynamicProxy().test();
+        TestRetrofit.retrofitGetWeather();
     }
 }
