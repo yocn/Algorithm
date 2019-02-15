@@ -1,6 +1,7 @@
 package retrofit;
 
 import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * @Author yocn
@@ -16,6 +17,7 @@ public class RetrofitFactory {
         if (apiService == null) {
             retrofit = new Retrofit.Builder()
                     .addConverterFactory(new MyConverterFactory())
+                    .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(new MyCallAdapterFactory())
                     .baseUrl("https://restapi.amap.com/v3/weather/")
                     .build();
