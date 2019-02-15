@@ -4,6 +4,7 @@ import okhttp3.ResponseBody;
 import org.jetbrains.annotations.Nullable;
 import retrofit2.Converter;
 import retrofit2.Retrofit;
+import util.LogUtil;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -18,6 +19,8 @@ public class MyConverter extends Converter.Factory {
     @Nullable
     @Override
     public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit) {
+        LogUtil.Companion.d("yocn MyConverter type->" + type);
+
         if (type == String.class) {
             return new StringConverter();
         } else if (type == Weather.class) {

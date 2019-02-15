@@ -12,4 +12,7 @@ import retrofit2.http.Query;
 public interface ApiService {
     @GET("weatherInfo")
     Call<Weather> getWeather(@Query("key") String key, @Query("city") String city, @Query("output") String output, @Query("extensions") String extensions);
+
+    @GET("weatherInfo")
+    Call<String> getWeatherString(@Query("key") String key, @Query("city") String city, @Query("output") String output, @Query("extensions") String extensions);
 }

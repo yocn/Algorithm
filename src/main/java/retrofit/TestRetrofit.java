@@ -33,6 +33,19 @@ public class TestRetrofit {
 
             }
         });
+
+        Call<String> callString = RetrofitFactory.getInstance().getWeatherString("5326a9f59587393b549f3cffefa0459b", "110000", "json", "base");
+        callString.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                LogUtil.Companion.d("sss->" + response.body().toString());
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+
+            }
+        });
     }
 
     public static void OKGetWeather() {

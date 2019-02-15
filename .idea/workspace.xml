@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcb7c27-f322-400b-be45-3dfdcf5f26c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/retrofit/ApiService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/retrofit/RetrofitFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/retrofit/Weather.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$1.class" afterPath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$2.class" afterPath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$SimpleClass1.class" afterPath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$SimpleClass1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$SimpleClass2.class" afterPath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$SimpleClass2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$SimpleInterface.class" afterPath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy$SimpleInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy.class" afterPath="$PROJECT_DIR$/build/classes/main/proxy/SimpleDynamicProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Algorithm_Kotlin_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/proxy/SimpleDynamicProxy.java" afterPath="$PROJECT_DIR$/src/main/java/proxy/SimpleDynamicProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/retrofit/ApiService.java" afterPath="$PROJECT_DIR$/src/main/java/retrofit/ApiService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java" afterPath="$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java" afterPath="$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,44 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Combinations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Combinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/ApiService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestRetrofit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="382">
+              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,18 +48,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="78" column="42" lean-forward="false" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+            <state relative-caret-position="470">
+              <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCallAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyCallAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="296">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+            <state relative-caret-position="370">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,33 +79,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RetrofitFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/RetrofitFactory.java">
+      <file leaf-file-name="CallAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/CallAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#3225#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weather.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/Weather.java">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="207">
+              <caret line="338" column="41" lean-forward="false" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
+              <folding>
+                <element signature="method#Utils#0;class#Utils#0" expanded="false" />
+                <element signature="method#methodError#0;class#Utils#0" expanded="false" />
+                <element signature="method#methodError#1;class#Utils#0" expanded="false" />
+                <element signature="method#parameterError#0;class#Utils#0" expanded="false" />
+                <element signature="method#parameterError#1;class#Utils#0" expanded="false" />
+                <element signature="method#getRawType#0;class#Utils#0" expanded="false" />
+                <element signature="e#2461#2554#0" expanded="false" />
+                <element signature="e#3048#3142#0" expanded="false" />
+                <element signature="docComment;method#equals#0;class#Utils#0" expanded="false" />
+                <element signature="method#equals#0;class#Utils#0" expanded="false" />
+                <element signature="docComment;method#getGenericSupertype#0;class#Utils#0" expanded="false" />
+                <element signature="method#getGenericSupertype#0;class#Utils#0" expanded="false" />
+                <element signature="method#indexOf#0;class#Utils#0" expanded="false" />
+                <element signature="method#typeToString#0;class#Utils#0" expanded="false" />
+                <element signature="docComment;method#getSupertype#0;class#Utils#0" expanded="false" />
+                <element signature="method#getSupertype#0;class#Utils#0" expanded="false" />
+                <element signature="method#resolve#0;class#Utils#0" expanded="false" />
+                <element signature="method#resolveTypeVariable#0;class#Utils#0" expanded="false" />
+                <element signature="docComment;method#declaringClassOf#0;class#Utils#0" expanded="false" />
+                <element signature="method#declaringClassOf#0;class#Utils#0" expanded="false" />
+                <element signature="method#checkNotPrimitive#0;class#Utils#0" expanded="false" />
+                <element signature="method#checkNotNull#0;class#Utils#0" expanded="false" />
+                <element signature="docComment;method#isAnnotationPresent#0;class#Utils#0" expanded="false" />
+                <element signature="method#isAnnotationPresent#0;class#Utils#0" expanded="false" />
+                <element signature="method#buffer#0;class#Utils#0" expanded="false" />
+                <element signature="method#validateServiceInterface#0;class#Utils#0" expanded="false" />
+                <element signature="e#12779#12867#0" expanded="false" />
+                <element signature="method#hasUnresolvableType#0;class#Utils#0" expanded="false" />
+                <element signature="class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#ParameterizedTypeImpl#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#equals#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#hashCode#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#toString#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="class#GenericArrayTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#equals#0;class#GenericArrayTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="docComment;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#WildcardTypeImpl#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#getLowerBounds#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#equals#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#hashCode#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#toString#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+                <element signature="method#throwIfFatal#0;class#Utils#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogUtil.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/LogUtil.kt">
+      <file leaf-file-name="ParameterizedType.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/lang/reflect/ParameterizedType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="209">
+              <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -190,6 +182,7 @@
       <find>TestReentrantLock.</find>
       <find>MapBean</find>
       <find>”</find>
+      <find>getCallResponseType</find>
     </findStrings>
     <replaceStrings>
       <replace>SimpleSyncFactory</replace>
@@ -633,11 +626,12 @@
         <option value="$PROJECT_DIR$/src/main/java/proxy/SimpleDyncProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/proxy/SimpleDynamicProxy.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/retrofit/ApiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/retrofit/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/retrofit/ApiService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java" />
         <option value="$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java" />
       </list>
     </option>
   </component>
@@ -677,6 +671,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm_Kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.squareup.retrofit2:retrofit:2.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retrofit-2.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retrofit2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm_Kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.squareup.retrofit2:retrofit:2.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retrofit-2.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -842,6 +876,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="CallAda&#9;FILE&#9;jar:///Users/yocn/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/CallAdapter.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1355,12 +1390,12 @@
       <workItem from="1548401967981" duration="31702000" />
       <workItem from="1548925831649" duration="2809000" />
       <workItem from="1550026418715" duration="66000" />
-      <workItem from="1550026581600" duration="6858000" />
+      <workItem from="1550026581600" duration="8622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86333000" />
+    <option name="totallyTimeSpent" value="88097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1383,7 +1418,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2857143" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33163264" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24114774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1413,55 +1448,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/algo/AlgoTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/AnnoParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/annotation/TestAnno.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1735,14 +1721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/ApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/LogUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1751,23 +1729,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/internal/NamedRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/RetrofitFactory.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/RealCall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/OkHttpCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="201" column="52" lean-forward="false" selection-start-line="201" selection-start-column="52" selection-end-line="201" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1779,28 +1769,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/RetrofitFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="78" column="42" lean-forward="false" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        <state relative-caret-position="470">
+          <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/TestRetrofit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/CallAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#3225#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+        <state relative-caret-position="370">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/lang/reflect/ParameterizedType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="338" column="41" lean-forward="false" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
+          <folding>
+            <element signature="method#Utils#0;class#Utils#0" expanded="false" />
+            <element signature="method#methodError#0;class#Utils#0" expanded="false" />
+            <element signature="method#methodError#1;class#Utils#0" expanded="false" />
+            <element signature="method#parameterError#0;class#Utils#0" expanded="false" />
+            <element signature="method#parameterError#1;class#Utils#0" expanded="false" />
+            <element signature="method#getRawType#0;class#Utils#0" expanded="false" />
+            <element signature="e#2461#2554#0" expanded="false" />
+            <element signature="e#3048#3142#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Utils#0" expanded="false" />
+            <element signature="method#equals#0;class#Utils#0" expanded="false" />
+            <element signature="docComment;method#getGenericSupertype#0;class#Utils#0" expanded="false" />
+            <element signature="method#getGenericSupertype#0;class#Utils#0" expanded="false" />
+            <element signature="method#indexOf#0;class#Utils#0" expanded="false" />
+            <element signature="method#typeToString#0;class#Utils#0" expanded="false" />
+            <element signature="docComment;method#getSupertype#0;class#Utils#0" expanded="false" />
+            <element signature="method#getSupertype#0;class#Utils#0" expanded="false" />
+            <element signature="method#resolve#0;class#Utils#0" expanded="false" />
+            <element signature="method#resolveTypeVariable#0;class#Utils#0" expanded="false" />
+            <element signature="docComment;method#declaringClassOf#0;class#Utils#0" expanded="false" />
+            <element signature="method#declaringClassOf#0;class#Utils#0" expanded="false" />
+            <element signature="method#checkNotPrimitive#0;class#Utils#0" expanded="false" />
+            <element signature="method#checkNotNull#0;class#Utils#0" expanded="false" />
+            <element signature="docComment;method#isAnnotationPresent#0;class#Utils#0" expanded="false" />
+            <element signature="method#isAnnotationPresent#0;class#Utils#0" expanded="false" />
+            <element signature="method#buffer#0;class#Utils#0" expanded="false" />
+            <element signature="method#validateServiceInterface#0;class#Utils#0" expanded="false" />
+            <element signature="e#12779#12867#0" expanded="false" />
+            <element signature="method#hasUnresolvableType#0;class#Utils#0" expanded="false" />
+            <element signature="class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#ParameterizedTypeImpl#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#equals#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#hashCode#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#toString#0;class#ParameterizedTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="class#GenericArrayTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#equals#0;class#GenericArrayTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="docComment;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#WildcardTypeImpl#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#getLowerBounds#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#equals#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#hashCode#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#toString#0;class#WildcardTypeImpl#0;class#Utils#0" expanded="false" />
+            <element signature="method#throwIfFatal#0;class#Utils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/retrofit/MyCallAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

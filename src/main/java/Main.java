@@ -75,7 +75,7 @@ public class Main {
 //        RegularExpressionMatching.test();
 //        EightQueen.test();
 //            new TraverseBinaryTree().test();
-            new SimpleDynamicProxy().test();
+//            new SimpleDynamicProxy().test();
         TestRetrofit.retrofitGetWeather();
     }
 }
