@@ -13,13 +13,13 @@ import java.lang.reflect.Type;
 /**
  * @Author yocn
  * @Date 2019/2/15 10:51 AM
- * @ClassName MyConverter
+ * @ClassName MyConverterFactory
  */
-public class MyConverter extends Converter.Factory {
+public class MyConverterFactory extends Converter.Factory {
     @Nullable
     @Override
     public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit) {
-        LogUtil.Companion.d("yocn MyConverter type->" + type);
+        LogUtil.Companion.d("yocn MyConverterFactory type->" + type);
 
         if (type == String.class) {
             return new StringConverter();
@@ -46,7 +46,7 @@ public class MyConverter extends Converter.Factory {
             Weather weather = new Weather();
             weather.setCount(100);
             weather.setStatus(999);
-            weather.setInfo("I'm A Fake Weather create by MyConverter!");
+            weather.setInfo("I'm A Fake Weather create by MyConverterFactory!");
             Exception e = new Exception("this is a exception log for print");
             e.printStackTrace();
             return weather;

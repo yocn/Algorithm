@@ -1,8 +1,6 @@
 package retrofit;
 
-import retrofit2.Call;
 import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * @Author yocn
@@ -17,8 +15,8 @@ public class RetrofitFactory {
         //https://restapi.amap.com/v3/weather/weatherInfo?key=5326a9f59587393b549f3cffefa0459b&city=110000&output=json&extensions=base
         if (apiService == null) {
             retrofit = new Retrofit.Builder()
-                    .addConverterFactory(new MyConverter())
-                    .addCallAdapterFactory(new MyCallAdapter())
+                    .addConverterFactory(new MyConverterFactory())
+                    .addCallAdapterFactory(new MyCallAdapterFactory())
                     .baseUrl("https://restapi.amap.com/v3/weather/")
                     .build();
             apiService = retrofit.create(ApiService.class);
