@@ -1,3 +1,4 @@
+import okhttp.TestOKHttp;
 import proxy.SimpleDynamicProxy;
 import retrofit.TestRetrofit;
 
@@ -76,6 +77,7 @@ public class Main {
 //        EightQueen.test();
 //            new TraverseBinaryTree().test();
 //            new SimpleDynamicProxy().test();
-        TestRetrofit.retrofitGetWeather();
+//        TestRetrofit.retrofitGetWeather();
+        TestOKHttp.test();
     }
 }
