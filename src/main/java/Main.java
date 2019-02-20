@@ -1,6 +1,7 @@
 import okhttp.TestOKHttp;
 import proxy.SimpleDynamicProxy;
 import retrofit.TestRetrofit;
+import testRecursion.TestRecursion;
 
 import java.io.IOException;
 
@@ -78,6 +79,7 @@ public class Main {
 //            new TraverseBinaryTree().test();
 //            new SimpleDynamicProxy().test();
 //        TestRetrofit.retrofitGetWeather();
-        TestOKHttp.test();
+//        TestOKHttp.test();
+        new TestRecursion(0).process();
     }
 }
