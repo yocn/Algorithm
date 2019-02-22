@@ -1,4 +1,5 @@
 import okhttp.TestOKHttp;
+import okio.testOKIO;
 import proxy.SimpleDynamicProxy;
 import retrofit.TestRetrofit;
 import testRecursion.TestRecursion;
@@ -80,6 +81,7 @@ public class Main {
 //            new SimpleDynamicProxy().test();
 //        TestRetrofit.retrofitGetWeather();
 //        TestOKHttp.test();
-        new TestRecursion(0).process();
+//        new TestRecursion(0).process();
+        testOKIO.test();
     }
 }
