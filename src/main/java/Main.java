@@ -87,7 +87,7 @@ public class Main {
 //        TestOKHttp.test();
 //        new TestRecursion(0).process();
 //        testOKIO.test();
-        new GenerateParenttheses().test();
-//        new ArrangeAllString().test();
+//        new GenerateParenttheses().test();
+        new ArrangeAllString().test();
     }
 }
