@@ -47,6 +47,9 @@ public class CombinationOfPhoneNumLetter {
     String digits;
 
     private List<String> letterCombinations(String digits) {
+        if (digits == null || "".equals(digits)) {
+            return new ArrayList<>();
+        }
         this.digits = digits;
         char[] srcChars = digits.toCharArray();
         List<String> srcList = new ArrayList<>();
