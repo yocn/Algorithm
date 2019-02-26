@@ -86,6 +86,7 @@ public class Main {
 //        testOKIO.test();
 //        new GenerateParenttheses().test();
 //        new ArrangeAllString().test();
-        new CombinationOfPhoneNumLetter().test();
+//        new CombinationOfPhoneNumLetter().test();
+        new CombinationNum().test();
     }
 }

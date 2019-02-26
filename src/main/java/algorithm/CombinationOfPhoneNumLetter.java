@@ -71,9 +71,9 @@ public class CombinationOfPhoneNumLetter {
         index++;
         String currentString = src.get(index - 1);
         char[] chars = currentString.toCharArray();
-        for (int j = 0; j < chars.length; j++) {
-            String ss = temp + chars[j];
-            LogUtil.Companion.d(index + " - " + currentString + " length->" + digits.length() + " index->" + index + " temp->" + temp + " chars[j]->" + chars[j]);
+        for (char aChar : chars) {
+            String ss = temp + aChar;
+            LogUtil.Companion.d(index + " - " + currentString + " length->" + digits.length() + " index->" + index + " temp->" + temp + " chars[j]->" + aChar);
             combine(src, ss, index);
         }
     }
