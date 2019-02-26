@@ -1,3 +1,4 @@
+import algorithm.ArrangeAllString;
 import algorithm.EightQueen;
 import algorithm.GenerateParenttheses;
 import algorithm.RegularExpressionMatching;
@@ -87,5 +88,6 @@ public class Main {
 //        new TestRecursion(0).process();
 //        testOKIO.test();
         new GenerateParenttheses().test();
+//        new ArrangeAllString().test();
     }
 }

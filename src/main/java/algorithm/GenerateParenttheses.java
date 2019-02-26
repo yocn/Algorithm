@@ -20,27 +20,23 @@ import java.util.List;
  */
 public class GenerateParenttheses {
     public void test() {
-        int n = 2;
-        int leftnum = n, rightnum = n;//左括号和右括号都各有n个
+        int n = 3;
         ArrayList<String> results = new ArrayList<String>();//用于存放解空间
-        parentheses("", results, leftnum, rightnum);
-//        for (String s : results)
-//            System.out.println(s);
+        parentheses("", results, n, n, 0);
     }
 
-    public static void parentheses(String sublist, ArrayList<String> results, int leftnum, int rightnum) {
-        LogUtil.Companion.d(leftnum + "/" + rightnum + " -> " + sublist + "          -" + results.toString());
+    public static void parentheses(String sublist, ArrayList<String> results, int leftnum, int rightnum, int level) {
         if (leftnum == 0 && rightnum == 0) {
             results.add(sublist);
         }
+        level++;
+        LogUtil.Companion.d(leftnum + "/" + rightnum + " level->" + level + "  " + sublist + "          -" + results.toString());
+        if (leftnum > 0) {
+            parentheses(sublist + "(", results, leftnum - 1, rightnum, level);
+        }
         if (rightnum > leftnum) {
             //选择和条件。对于不同的if顺序，输出的结果顺序是不一样的，但是构成一样的解空间
-            LogUtil.Companion.d("a");
-            parentheses(sublist + ")", results, leftnum, rightnum - 1);
-        }
-        if (leftnum > 0) {
-            LogUtil.Companion.d("b");
-            parentheses(sublist + "(", results, leftnum - 1, rightnum);
+            parentheses(sublist + ")", results, leftnum, rightnum - 1, level);
         }
     }
 }
