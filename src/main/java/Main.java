@@ -1,7 +1,4 @@
-import algorithm.ArrangeAllString;
-import algorithm.EightQueen;
-import algorithm.GenerateParenttheses;
-import algorithm.RegularExpressionMatching;
+import algorithm.*;
 import okhttp.TestOKHttp;
 import okio.testOKIO;
 import proxy.SimpleDynamicProxy;
@@ -88,6 +85,7 @@ public class Main {
 //        new TestRecursion(0).process();
 //        testOKIO.test();
 //        new GenerateParenttheses().test();
-        new ArrangeAllString().test();
+//        new ArrangeAllString().test();
+        new CombinationOfPhoneNumLetter().test();
     }
 }

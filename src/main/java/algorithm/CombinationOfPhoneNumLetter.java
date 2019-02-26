@@ -25,30 +25,54 @@ import java.util.Map;
  * 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
  */
 public class CombinationOfPhoneNumLetter {
-    private Map<Character, Character[]> mLetterMap = new HashMap<>();
+    private Map<Character, String> mLetterMap = new HashMap<>();
 
-    CombinationOfPhoneNumLetter() {
-        mLetterMap.put('2', new Character[]{'a', 'b', 'c'});
-        mLetterMap.put('3', new Character[]{'d', 'e', 'f'});
-        mLetterMap.put('4', new Character[]{'g', 'h', 'i'});
-        mLetterMap.put('5', new Character[]{'j', 'k', 'l'});
-        mLetterMap.put('6', new Character[]{'m', 'n', 'o'});
-        mLetterMap.put('7', new Character[]{'p', 'q', 'r', 's'});
-        mLetterMap.put('8', new Character[]{'t', 'u', 'v'});
-        mLetterMap.put('9', new Character[]{'x', 'y', 'z'});
+    public CombinationOfPhoneNumLetter() {
+        mLetterMap.put('2', "abc");
+        mLetterMap.put('3', "def");
+        mLetterMap.put('4', "ghi");
+        mLetterMap.put('5', "jkl");
+        mLetterMap.put('6', "mno");
+        mLetterMap.put('7', "pqrs");
+        mLetterMap.put('8', "tuv");
+        mLetterMap.put('9', "wxyz");
     }
 
     public void test() {
-        List<String> list = letterCombinations("23");
+        List<String> list = letterCombinations("932");
         LogUtil.Companion.d(list.toString());
     }
 
+    List<String> list = new ArrayList<>();
+    String digits;
+
     private List<String> letterCombinations(String digits) {
-        char[] chars = digits.toCharArray();
+        this.digits = digits;
+        char[] srcChars = digits.toCharArray();
+        List<String> srcList = new ArrayList<>();
+        for (char c : srcChars) {
+            String ss = mLetterMap.get(c);
+            srcList.add(ss);
+        }
+        LogUtil.Companion.d("src->" + srcList.toString());
+        combine(srcList, "", 0);
 
-
-        List<String> list = new ArrayList<>();
         return list;
+    }
+
+    private void combine(List<String> src, String temp, int index) {
+        if (index == digits.length()) {
+            list.add(temp);
+            return;
+        }
+        index++;
+        String currentString = src.get(index - 1);
+        char[] chars = currentString.toCharArray();
+        for (int j = 0; j < chars.length; j++) {
+            String ss = temp + chars[j];
+            LogUtil.Companion.d(index + " - " + currentString + " length->" + digits.length() + " index->" + index + " temp->" + temp + " chars[j]->" + chars[j]);
+            combine(src, ss, index);
+        }
     }
 
 }
