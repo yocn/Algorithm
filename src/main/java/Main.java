@@ -1,3 +1,6 @@
+import algorithm.EightQueen;
+import algorithm.GenerateParenttheses;
+import algorithm.RegularExpressionMatching;
 import okhttp.TestOKHttp;
 import okio.testOKIO;
 import proxy.SimpleDynamicProxy;
@@ -82,6 +85,7 @@ public class Main {
 //        TestRetrofit.retrofitGetWeather();
 //        TestOKHttp.test();
 //        new TestRecursion(0).process();
-        testOKIO.test();
+//        testOKIO.test();
+        new GenerateParenttheses().test();
     }
 }

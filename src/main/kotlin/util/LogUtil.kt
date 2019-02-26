@@ -8,5 +8,9 @@ class LogUtil {
         fun d(msg: String) {
             System.out.print(msg + "\n")
         }
+
+        fun d(msg: Int) {
+            System.out.print("" + msg + "\n")
+        }
     }
 }

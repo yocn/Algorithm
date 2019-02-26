@@ -2,6 +2,9 @@ package algorithm;
 
 import util.LogUtil;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by yocn on 2019/1/26.
  * 正则表达式匹配
@@ -50,11 +53,53 @@ import util.LogUtil;
  * s = "mississippi"
  * p = "mis*is*p*."
  * 输出: false
+ * 从头开始匹配，匹配.*位置之前是否匹配，往后走，如果后面的出现不匹配则看前一个.*是否匹配
  */
 public class RegularExpressionMatching {
     public static void test() {
-        boolean is = isMatch("aaab", ".*ab");
-        LogUtil.Companion.d("is->" + is);
+//        boolean is = isMatch("aaab", ".*ab");
+//        match("aaab", ".*ab");
+//        match("mississippi", "mis*is*p*.");
+        match("issmissppi", "is*mis*p*.");
+//        LogUtil.Companion.d("is->" + is);
+
+    }
+
+    private static boolean match(String s, String p) {
+        if (s.equals(p)) {
+            return true;
+        }
+
+
+
+        List<String> list = new ArrayList<>();
+        String[] dotsString = p.split("\\.");
+
+        LogUtil.Companion.d(dotsString.length);
+        for (String dots : dotsString) {
+            String[] dot = dots.split("\\*");
+            for (String ss : dot) {
+                if (!"".equals(ss)) {
+                    list.add(ss);
+                }
+            }
+        }
+        for (String a : list) {
+            LogUtil.Companion.d(a);
+        }
+
+        char[] srcChars = s.toCharArray();
+        char[] destChars = p.toCharArray();
+
+        return false;
+    }
+
+
+    private static boolean isPrefixMatching(char[] src, char[] dest, int index) {
+        //aaab -> .*aaab .*aab .*ab .*b .*
+        //ababaab -> .*ab.*
+
+        return false;
     }
 
     public static boolean isMatch(String s, String p) {
@@ -118,3 +163,17 @@ public class RegularExpressionMatching {
         return result;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
