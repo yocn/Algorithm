@@ -87,6 +87,7 @@ public class Main {
 //        new GenerateParenttheses().test();
 //        new ArrangeAllString().test();
 //        new CombinationOfPhoneNumLetter().test();
-        new CombinationNum().test();
+//        new CombinationNum().test();
+        new CombinationNum2().test();
     }
 }

@@ -37,7 +37,7 @@ import java.util.List;
  */
 public class CombinationNum {
     public void test() {
-        List<List<Integer>> result = combinationSum(new int[]{1}, 1);
+        List<List<Integer>> result = combinationSum(new int[]{2, 3, 6, 7}, 7);
         LogUtil.Companion.d(result.toString());
     }
 
