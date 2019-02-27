@@ -1,4 +1,5 @@
 import algorithm.backtracing.CombinationNum2;
+import algorithm.backtracing.Permutations;
 
 import java.io.IOException;
 
@@ -83,6 +84,7 @@ public class Main {
 //        new ArrangeAllString().test();
 //        new CombinationOfPhoneNumLetter().test();
 //        new CombinationNum().test();
-        new CombinationNum2().test();
+//        new CombinationNum2().test();
+        new Permutations().test();
     }
 }
