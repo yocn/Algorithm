@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.backtracing;
 
 import java.util.List;
 
