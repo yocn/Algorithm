@@ -51,27 +51,32 @@ public class CombinationNum2 {
             src.add(candidate);
         }
         src.sort((o1, o2) -> o1 - o2);
-        getCombination(src, new ArrayList<>(), 0, 0);
+        getCombination(src, new ArrayList<>(), 0, 0, 0);
         LogUtil.Companion.d(src.toString());
         return result;
     }
 
-    private void getCombination(List<Integer> remainingList, List<Integer> temp, int level, int pre) {
+    private void getCombination(List<Integer> remainingList, List<Integer> temp, int level, int pre, int layer) {
         if (getListSum(temp) == mTarget) {
             result.add(temp);
             return;
         }
+        layer++;
         for (int i = level; i < remainingList.size(); i++) {
             int current = remainingList.get(i);
-            if (current != pre) {
+            LogUtil.Companion.d("layer->" + layer);
+            if (current == pre) {
+
+            } else {
                 pre = current;
                 List<Integer> list = getRestList(remainingList, i);
                 List<Integer> tempResult = new ArrayList<>();
                 tempResult.addAll(temp);
                 tempResult.add(current);
-                getCombination(list, tempResult, i, current);
+                getCombination(list, tempResult, i, current, layer);
             }
         }
+
     }
 
     private List<Integer> getRestList(List<Integer> srcList, int index) {
