@@ -8,9 +8,13 @@ import util.LogUtil;
 public class Fibonacci {
     public void test() {
         long time1 = System.currentTimeMillis();
-        int num = normalFibonacciWithRecursion(4);
+        int num = normalFibonacciWithRecursion(40);
         long time2 = System.currentTimeMillis();
         LogUtil.Companion.d("normal->" + num + " time->" + (time2 - time1));
+        time1 = System.currentTimeMillis();
+        long numLong = normalFibonacciDynamicProgramming(80);
+        time2 = System.currentTimeMillis();
+        LogUtil.Companion.d("normal->" + numLong + " time->" + (time2 - time1));
     }
 
     private int normalFibonacciWithRecursion(int n) {
@@ -20,14 +24,18 @@ public class Fibonacci {
         return normalFibonacciWithRecursion(n - 1) + normalFibonacciWithRecursion(n - 2);
     }
 
-    private int normalFibonacciNormal(int n) {
+    private long normalFibonacciDynamicProgramming(int n) {
         if (n <= 1) {
             return 1;
         }
-        int total = 0;
+        long result = 2;
+        long pre;
+        long current = 1;
         for (int i = 2; i < n; i++) {
-
+            pre = current;
+            current = result;
+            result = current + pre;
         }
-        return total;
+        return result;
     }
 }
