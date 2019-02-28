@@ -1,3 +1,4 @@
+import DynamicProgramming.Fibonacci;
 import algorithm.backtracing.CombinationNum2;
 import algorithm.backtracing.Permutations;
 
@@ -85,6 +86,7 @@ public class Main {
 //        new CombinationOfPhoneNumLetter().test();
 //        new CombinationNum().test();
 //        new CombinationNum2().test();
-        new Permutations().test();
+//        new Permutations().test();
+        new Fibonacci().test();
     }
 }
