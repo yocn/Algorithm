@@ -1,7 +1,10 @@
 import DynamicProgramming.Fibonacci;
 import algorithm.backtracing.CombinationNum2;
 import algorithm.backtracing.Permutations;
+import testAQS.TestAQS;
+import util.LogUtil;
 
+import javax.script.ScriptEngineManager;
 import java.io.IOException;
 
 /**
@@ -50,14 +53,6 @@ public class Main {
 //            byte[] dest = GZIPUtils.compress(sb.toString());
 //            String ss = new String(dest, "utf-8");
 //            LogUtil.Companion.d("" + ss);
-//
-//
-//            int destLength = dest.length;
-//            LogUtil.Companion.d("" + (float) srcLength / destLength);
-//            LogUtil.Companion.d("" + sb.toString());
-//            LogUtil.Companion.d("" + sb.toString().length() + "|" + dest.length);
-//            LogUtil.Companion.d("" + GZIPUtils.uncompressToString(ss.getBytes()));
-//        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
 //    }
@@ -75,8 +70,8 @@ public class Main {
 //        IsPalindromic.test();
 //        RegularExpressionMatching.test();
 //        EightQueen.test();
-//            new TraverseBinaryTree().test();
-//            new SimpleDynamicProxy().test();
+//        new TraverseBinaryTree().test();
+//        new SimpleDynamicProxy().test();
 //        TestRetrofit.retrofitGetWeather();
 //        TestOKHttp.test();
 //        new TestRecursion(0).process();
@@ -87,6 +82,7 @@ public class Main {
 //        new CombinationNum().test();
 //        new CombinationNum2().test();
 //        new Permutations().test();
-        new Fibonacci().test();
+//        new Fibonacci().test();
+        new TestAQS().test();
     }
 }
