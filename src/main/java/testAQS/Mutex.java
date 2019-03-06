@@ -61,6 +61,10 @@ public class Mutex implements Lock {
         sync.release(1);
     }
 
+    public int getQueueLength() {
+        return sync.getQueueLength();
+    }
+
     @NotNull
     @Override
     public Condition newCondition() {
