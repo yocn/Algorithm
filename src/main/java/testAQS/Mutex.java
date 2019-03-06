@@ -9,6 +9,7 @@ import java.util.concurrent.locks.Lock;
 
 /**
  * Created by yocn on 2019/3/4.
+ * 一个最简单的互斥锁
  */
 public class Mutex implements Lock {
     private Sync sync = new Sync();

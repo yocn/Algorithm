@@ -9,6 +9,10 @@ class LogUtil {
             System.out.print(msg + "\n")
         }
 
+        fun dd(msg: String) {
+            System.out.print(msg )
+        }
+
         fun d(msg: Int) {
             System.out.print("" + msg + "\n")
         }
