@@ -39,19 +39,22 @@ import java.util.List;
 public class SpiralMatrix {
 
     int[][] src = {
-            {1}, {5}
+            {1}, {5}, {9}
     };
 
     public void test() {
 //        spiralOrder(initArray(2, 1));
 //        spiralOrder(src);
 //        List<Integer> list = spiralOrder(src);
-        List<Integer> list = spiralOrder(initArray(2, 1));
+        List<Integer> list = spiralOrder(initArray(3, 1));
         LogUtil.Companion.d(list.toString());
     }
 
     private List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
+        if (matrix.length == 0) {
+            return result;
+        }
         //m是行数，n是列数
         int m = matrix.length, n = matrix[0].length;
         int[] sss = new int[m * n];
@@ -73,12 +76,17 @@ public class SpiralMatrix {
         return result;
     }
 
-    int lastIndex = -1;
+    private int lastIndex = -1;
 
     private void readALevel(List<Integer> list, int level, int[] matrix, int m, int n) {
         int x = m - level * 2;//第level圈有几列
         int y = n - level * 2;//第level圈有几行
-        int max = (x > 1) ? ((x + y - 2) * 2) : y;//这一个level一共有多少个数。一列减去两个顶点
+        int max;//这一个level一共有多少个数。一列减去两个顶点
+        if (x == 1 || y == 1) {
+            max = x == 1 ? y : x;
+        } else {
+            max = ((x + y - 2) * 2);
+        }
         LogUtil.Companion.d("第" + level + "圈有" + x + "列，有" + y + "行，一共有" + max + "个数字");
         StringBuilder sb = new StringBuilder();
         int index = lastIndex;
@@ -87,22 +95,18 @@ public class SpiralMatrix {
                 index++;
                 sb.append(index).append(" ");
                 list.add(matrix[index]);
-                LogUtil.Companion.d("index->" + index);
             } else if (i < x + y - 1) {
                 index += n;
                 sb.append(index).append(" ");
                 list.add(matrix[index]);
-                LogUtil.Companion.d("index->" + index);
             } else if (i < x + 2 * y - 2) {
                 index--;
                 sb.append(index).append(" ");
                 list.add(matrix[index]);
-                LogUtil.Companion.d("index->" + index);
             } else {
                 index -= n;
                 sb.append(index).append(" ");
                 list.add(matrix[index]);
-                LogUtil.Companion.d("index->" + index);
             }
         }
         LogUtil.Companion.d("--------->" + sb.toString());
