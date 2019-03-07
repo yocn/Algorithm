@@ -26,7 +26,8 @@ import java.util.List;
  */
 public class PascalTriangle {
     public void test() {
-        List<List<Integer>> list = generate(11);
+//        List<List<Integer>> list = generate(11);
+        List<Integer> list = getRow(1);
         LogUtil.Companion.d("list->" + list.toString());
     }
 
@@ -62,4 +63,38 @@ public class PascalTriangle {
         }
         return result;
     }
+
+
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> list = new ArrayList<>();
+        int num = 0;
+        List<Integer> preList = new ArrayList<>();
+        for (int i = 0; i < rowIndex + 1; i++) {
+            num++;
+            list.clear();
+            if (i == 0) {
+                list.add(1);
+                preList = new ArrayList<>(list);
+                LogUtil.Companion.d(" 0  lastList->" + preList.toString());
+                continue;
+            } else if (i == 1) {
+                list.add(1);
+                list.add(1);
+                preList = new ArrayList<>(list);
+                LogUtil.Companion.d(" 1  lastList->" + preList.toString());
+                continue;
+            }
+            for (int j = 0; j < num; j++) {
+                int pre = (j - 1 >= 0) ? preList.get(j - 1) : 0;
+                int current = (j < preList.size()) ? preList.get(j) : 0;
+                list.add(pre + current);
+                LogUtil.Companion.d("pre->" + pre + " current->" + current + " total->" + (pre + current));
+            }
+            preList = new ArrayList<>(list);
+            LogUtil.Companion.d("i->" + i + " lastList->" + preList.toString());
+        }
+        return list;
+    }
+
+
 }
