@@ -39,19 +39,28 @@ import java.util.List;
 public class SpiralMatrix {
 
     int[][] src = {
-            {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}
+            {1}, {5}
     };
 
     public void test() {
-        spiralOrder(initArray(6, 10));
+//        spiralOrder(initArray(2, 1));
+//        spiralOrder(src);
 //        List<Integer> list = spiralOrder(src);
-//        LogUtil.Companion.d(list.toString());
+        List<Integer> list = spiralOrder(initArray(2, 1));
+        LogUtil.Companion.d(list.toString());
     }
 
     private List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
         //m是行数，n是列数
         int m = matrix.length, n = matrix[0].length;
+        int[] sss = new int[m * n];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                sss[i * n + j] = matrix[i][j];
+//                LogUtil.Companion.d("i * n + j->" + (i * n + j) + " i->" + i + " j->" + j + " " + matrix[i][j]);
+            }
+        }
         //行或列哪个最小。
         int min = (m < n ? m : n);
         //一共有几层
@@ -59,14 +68,14 @@ public class SpiralMatrix {
 
         LogUtil.Companion.d("m->" + m + " n->" + n);
         for (int i = 0; i < level; i++) {
-            readALevel(result, i, matrix, m, n);
+            readALevel(result, i, sss, m, n);
         }
         return result;
     }
 
-    int lastIndex;
+    int lastIndex = -1;
 
-    private void readALevel(List<Integer> list, int level, int[][] matrix, int m, int n) {
+    private void readALevel(List<Integer> list, int level, int[] matrix, int m, int n) {
         int x = m - level * 2;//第level圈有几列
         int y = n - level * 2;//第level圈有几行
         int max = (x > 1) ? ((x + y - 2) * 2) : y;//这一个level一共有多少个数。一列减去两个顶点
@@ -75,25 +84,29 @@ public class SpiralMatrix {
         int index = lastIndex;
         for (int i = 0; i < max; i++) {
             if (i < y) {
-                sb.append(index).append(" ");
-                list.add(index);
                 index++;
+                sb.append(index).append(" ");
+                list.add(matrix[index]);
+                LogUtil.Companion.d("index->" + index);
             } else if (i < x + y - 1) {
+                index += n;
                 sb.append(index).append(" ");
-                list.add(index);
-                index += y;
+                list.add(matrix[index]);
+                LogUtil.Companion.d("index->" + index);
             } else if (i < x + 2 * y - 2) {
-                sb.append(index).append(" ");
-                list.add(index);
                 index--;
-            } else {
                 sb.append(index).append(" ");
-                list.add(index);
-                index -= y;
+                list.add(matrix[index]);
+                LogUtil.Companion.d("index->" + index);
+            } else {
+                index -= n;
+                sb.append(index).append(" ");
+                list.add(matrix[index]);
+                LogUtil.Companion.d("index->" + index);
             }
         }
-        LogUtil.Companion.d("->" + sb.toString());
-        lastIndex = index + 1;
+        LogUtil.Companion.d("--------->" + sb.toString());
+        lastIndex = index;
     }
 
     private int[][] initArray(int x, int y) {
@@ -102,10 +115,10 @@ public class SpiralMatrix {
         int[][] xy = new int[x][y];
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
-                num++;
                 xy[i][j] = num;
                 sb.append(num);
                 sb.append((num < 10) ? "  " : " ");
+                num++;
             }
             sb.append("\n");
         }
