@@ -1,6 +1,7 @@
 import DynamicProgramming.Fibonacci;
 import algorithm.PascalTriangle;
 import algorithm.SpiralMatrix;
+import algorithm.SprialMatrixII;
 import algorithm.backtracing.CombinationNum2;
 import algorithm.backtracing.Permutations;
 import testAQS.TestAQS;
@@ -87,6 +88,7 @@ public class Main {
 //        new Fibonacci().test();
 //        new TestAQS().test();
 //        new SpiralMatrix().test();
-        new PascalTriangle().test();
+//        new PascalTriangle().test();
+        new SprialMatrixII().test();
     }
 }
