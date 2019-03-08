@@ -1,4 +1,5 @@
 import DynamicProgramming.Fibonacci;
+import algorithm.LongestUnivaluePath;
 import algorithm.PascalTriangle;
 import algorithm.SpiralMatrix;
 import algorithm.SprialMatrixII;
@@ -89,6 +90,7 @@ public class Main {
 //        new TestAQS().test();
 //        new SpiralMatrix().test();
 //        new PascalTriangle().test();
-        new SprialMatrixII().test();
+//        new SprialMatrixII().test();
+        new LongestUnivaluePath().test();
     }
 }
