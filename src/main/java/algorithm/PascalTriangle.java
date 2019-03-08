@@ -65,6 +65,12 @@ public class PascalTriangle {
     }
 
 
+    /**
+     * 获取杨辉三角某一排
+     *
+     * @param rowIndex 第x排
+     * @return 值
+     */
     public List<Integer> getRow(int rowIndex) {
         List<Integer> list = new ArrayList<>();
         int num = 0;

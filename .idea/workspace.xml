@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcb7c27-f322-400b-be45-3dfdcf5f26c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/PascalTriangle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/PascalTriangle.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/PascalTriangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="275">
+              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1238,12 +1237,12 @@
       <workItem from="1551160201505" duration="38239000" />
       <workItem from="1551418432035" duration="8221000" />
       <workItem from="1551772034884" duration="7707000" />
-      <workItem from="1551854788856" duration="18100000" />
+      <workItem from="1551854788856" duration="18669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232735000" />
+    <option name="totallyTimeSpent" value="233304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1858,8 +1857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="275">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
