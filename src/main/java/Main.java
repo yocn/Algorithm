@@ -89,6 +89,7 @@ public class Main {
 //        new PascalTriangle().test();
 //        new SprialMatrixII().test();
 //        new LongestUnivaluePath().test();
-        new RomanToInteger().test();
+//        new RomanToInteger().test();
+        new ReverseInteger().test();
     }
 }

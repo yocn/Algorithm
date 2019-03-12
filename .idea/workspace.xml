@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcb7c27-f322-400b-be45-3dfdcf5f26c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/RomanToInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/ImplementStrStr.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/ReverseInteger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
@@ -53,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/RomanToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="823">
@@ -63,11 +64,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ImplementStrStr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ImplementStrStr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding>
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseInteger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ReverseInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="721">
+              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="887">
-              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+            <state relative-caret-position="840">
+              <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -525,8 +549,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/ZigzagConversion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/Palindromic.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/LongestSubString.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/IsPalindromic.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/EightQueen.java" />
@@ -574,8 +596,10 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/LongestUnivaluePath.java" />
         <option value="$PROJECT_DIR$/src/main/java/testAQS/ReenLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/testAQS/AQS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/ImplementStrStr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/ReverseInteger.java" />
       </list>
     </option>
   </component>
@@ -1247,12 +1271,12 @@
       <workItem from="1551418432035" duration="8221000" />
       <workItem from="1551772034884" duration="7707000" />
       <workItem from="1551854788856" duration="32431000" />
-      <workItem from="1552385038404" duration="1588000" />
+      <workItem from="1552385038404" duration="4273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248654000" />
+    <option name="totallyTimeSpent" value="251339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1285,7 +1309,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3661369" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
+      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29400977" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19498777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1317,14 +1341,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestInterface.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/backtracing/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/backtracing/CombinationNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1646,6 +1662,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="118" column="44" lean-forward="false" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
+          <folding>
+            <element signature="method#AQS#0;class#AQS#0" expanded="false" />
+            <element signature="class#Node#0;class#AQS#0" expanded="false" />
+            <element signature="method#predecessor#0;class#Node#0;class#AQS#0" expanded="false" />
+            <element signature="method#Node#0;class#Node#0;class#AQS#0" expanded="false" />
+            <element signature="method#Node#1;class#Node#0;class#AQS#0" expanded="false" />
+            <element signature="method#Node#2;class#Node#0;class#AQS#0" expanded="false" />
+            <element signature="method#compareAndSetState#0;class#AQS#0" expanded="false" />
+            <element signature="method#enq#0;class#AQS#0" expanded="false" />
+            <element signature="method#addWaiter#0;class#AQS#0" expanded="false" />
+            <element signature="method#setHead#0;class#AQS#0" expanded="false" />
+            <element signature="method#unparkSuccessor#0;class#AQS#0" expanded="false" />
+            <element signature="method#doReleaseShared#0;class#AQS#0" expanded="false" />
+            <element signature="method#setHeadAndPropagate#0;class#AQS#0" expanded="false" />
+            <element signature="method#cancelAcquire#0;class#AQS#0" expanded="false" />
+            <element signature="e#4998#5060#0" expanded="false" />
+            <element signature="e#5232#5283#0" expanded="false" />
+            <element signature="e#5651#5708#0" expanded="false" />
+            <element signature="method#shouldParkAfterFailedAcquire#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#selfInterrupt#0;class#AQS#0" expanded="false" />
+            <element signature="method#parkAndCheckInterrupt#0;class#AQS#0" expanded="false" />
+            <element signature="method#acquireQueued#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#doAcquireInterruptibly#0;class#AQS#0" expanded="false" />
+            <element signature="method#doAcquireInterruptibly#0;class#AQS#0" expanded="false" />
+            <element signature="method#doAcquireNanos#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#doAcquireShared#0;class#AQS#0" expanded="false" />
+            <element signature="method#doAcquireShared#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#doAcquireSharedInterruptibly#0;class#AQS#0" expanded="false" />
+            <element signature="method#doAcquireSharedInterruptibly#0;class#AQS#0" expanded="false" />
+            <element signature="method#doAcquireSharedNanos#0;class#AQS#0" expanded="false" />
+            <element signature="method#acquire#0;class#AQS#0" expanded="false" />
+            <element signature="method#acquireInterruptibly#0;class#AQS#0" expanded="false" />
+            <element signature="method#tryAcquireNanos#0;class#AQS#0" expanded="false" />
+            <element signature="method#release#0;class#AQS#0" expanded="false" />
+            <element signature="method#acquireShared#0;class#AQS#0" expanded="false" />
+            <element signature="method#acquireSharedInterruptibly#0;class#AQS#0" expanded="false" />
+            <element signature="method#tryAcquireSharedNanos#0;class#AQS#0" expanded="false" />
+            <element signature="method#releaseShared#0;class#AQS#0" expanded="false" />
+            <element signature="method#getFirstQueuedThread#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#fullGetFirstQueuedThread#0;class#AQS#0" expanded="false" />
+            <element signature="method#fullGetFirstQueuedThread#0;class#AQS#0" expanded="false" />
+            <element signature="method#isQueued#0;class#AQS#0" expanded="false" />
+            <element signature="method#apparentlyFirstQueuedIsExclusive#0;class#AQS#0" expanded="false" />
+            <element signature="method#hasQueuedPredecessors#0;class#AQS#0" expanded="false" />
+            <element signature="e#17101#17161#0" expanded="false" />
+            <element signature="method#getQueueLength#0;class#AQS#0" expanded="false" />
+            <element signature="method#getQueuedThreads#0;class#AQS#0" expanded="false" />
+            <element signature="method#getExclusiveQueuedThreads#0;class#AQS#0" expanded="false" />
+            <element signature="method#getSharedQueuedThreads#0;class#AQS#0" expanded="false" />
+            <element signature="method#toString#0;class#AQS#0" expanded="false" />
+            <element signature="method#isOnSyncQueue#0;class#AQS#0" expanded="false" />
+            <element signature="method#findNodeFromTail#0;class#AQS#0" expanded="false" />
+            <element signature="method#transferForSignal#0;class#AQS#0" expanded="false" />
+            <element signature="method#transferAfterCancelledWait#0;class#AQS#0" expanded="false" />
+            <element signature="method#fullyRelease#0;class#AQS#0" expanded="false" />
+            <element signature="method#hasWaiters#0;class#AQS#0" expanded="false" />
+            <element signature="method#getWaitQueueLength#0;class#AQS#0" expanded="false" />
+            <element signature="method#getWaitingThreads#0;class#AQS#0" expanded="false" />
+            <element signature="class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;field#firstWaiter#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;field#lastWaiter#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#ConditionObject#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#ConditionObject#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#addConditionWaiter#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#doSignal#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#doSignalAll#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#signal#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#signalAll#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#awaitUninterruptibly#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;field#REINTERRUPT#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;field#THROW_IE#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#await#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#awaitNanos#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#awaitUntil#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#await#1;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#hasWaiters#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#getWaitQueueLength#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="method#getWaitingThreads#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
+            <element signature="initializer##0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetHead#0;class#AQS#0" expanded="false" />
+            <element signature="method#compareAndSetHead#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetTail#0;class#AQS#0" expanded="false" />
+            <element signature="method#compareAndSetTail#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetWaitStatus#0;class#AQS#0" expanded="false" />
+            <element signature="method#compareAndSetWaitStatus#0;class#AQS#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetNext#0;class#AQS#0" expanded="false" />
+            <element signature="method#compareAndSetNext#0;class#AQS#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1657,18 +1764,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/RomanToInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
           <caret line="131" column="1" lean-forward="false" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ImplementStrStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
           <folding />
         </state>
       </provider>
