@@ -26,8 +26,8 @@ import util.LogUtil;
 public class ReverseInteger {
     public void test() {
         int x = Integer.MIN_VALUE + 1;
-        int s = reverse(x);
-        LogUtil.Companion.d(s);
+        int s = reverse(214748364);
+        LogUtil.Companion.d(s + " ");
     }
 
     public int reverse(int x) {
@@ -44,15 +44,40 @@ public class ReverseInteger {
         }
         int result = 0;
         int length = (x + "").length();
-        LogUtil.Companion.d("length->" + length);
         int last = x;
         for (int i = length - 1; i >= 0; i--) {
             int pow = (int) Math.pow(10, i);
             int digit = last / pow;
+            if (digit > 2 && i == 0 && length == 10) {
+                return 0;
+            }
             last = last - digit * pow;
-            result = result + digit * (int) Math.pow(10, length - 1 - i);
-            LogUtil.Companion.d(digit);
+            long temp = digit * (long) Math.pow(10, length - 1 - i);
+            if (temp > Integer.MAX_VALUE) {
+                return 0;
+            }
+            result = result + (int) temp;
+            if (result < 0) {
+                return 0;
+            }
+            LogUtil.Companion.d(digit + " - " + result + " temp->" + temp + " i->" + i);
         }
         return isMinus ? -result : result;
     }
+
+    public int reverseString(int x) {
+        if (x == Integer.MIN_VALUE) {
+            return 0;
+        }
+        boolean isMinus = false;
+        if (x < 0) {
+            x = Math.abs(x);
+            isMinus = true;
+        }
+        if (x < 10) {
+            return isMinus ? -x : x;
+        }
+        return x;
+    }
+
 }
