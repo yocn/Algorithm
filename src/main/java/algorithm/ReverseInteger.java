@@ -1,5 +1,6 @@
 package algorithm;
 
+import com.sun.deploy.util.StringUtils;
 import util.LogUtil;
 
 /**
@@ -26,8 +27,10 @@ import util.LogUtil;
 public class ReverseInteger {
     public void test() {
         int x = Integer.MIN_VALUE + 1;
-        int s = reverse(214748364);
-        LogUtil.Companion.d(s + " ");
+//        int s = reverse(2147483412);
+        int s = reverseString(-2147483412);
+//        int s = reverseString(x);
+        LogUtil.Companion.d(s + " " + x);
     }
 
     public int reverse(int x) {
@@ -77,7 +80,28 @@ public class ReverseInteger {
         if (x < 10) {
             return isMinus ? -x : x;
         }
-        return x;
+
+        char[] chars = new StringBuffer(x + "").reverse().toString().toCharArray();
+        int result = 0;
+        int length = chars.length;
+        for (int i = 0; i < length; i++) {
+            int digit = chars[i] - '0';
+            LogUtil.Companion.d("digit->" + digit);
+            if (digit > 2 && i == 0 && length == 10) {
+                return 0;
+            }
+            int pow = (int) Math.pow(10, length - 1 - i);
+            long temp = digit * pow;
+            if (temp > Integer.MAX_VALUE) {
+                return 0;
+            }
+            result += (int) temp;
+            if (result < 0) {
+                return 0;
+            }
+            LogUtil.Companion.d("digit->" + digit + " temp->" + temp + " pow->" + pow);
+        }
+        return isMinus ? -result : result;
     }
 
 }
