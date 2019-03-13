@@ -90,6 +90,7 @@ public class Main {
 //        new SprialMatrixII().test();
 //        new LongestUnivaluePath().test();
 //        new RomanToInteger().test();
-        new ReverseInteger().test();
+//        new ReverseInteger().test();
+        new Sum3().test();
     }
 }
