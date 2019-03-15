@@ -2,6 +2,9 @@ package algorithm;
 
 import util.LogUtil;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 /**
  * Created by yocn on 2019/3/15.
  * 一个按升序排列好的数组int[] array = {-5,-1,0,5,9,11,13,15,22,35,46},
@@ -12,6 +15,8 @@ public class Sum2 {
         int[] array = {-5, -1, 0, 5, 9, 11, 13, 15, 22, 35, 46};
         int[] result = getSum(array, 3);
         LogUtil.Companion.d("" + result[0] + " " + result[1]);
+        Hashtable<String, String> hashtable;
+        HashMap<String, String> map;
     }
 
     public int[] getSum(int[] array, int target) {

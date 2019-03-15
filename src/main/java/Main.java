@@ -93,6 +93,7 @@ public class Main {
 //        new ReverseInteger().test();
 //        new Sum3().test();
 //        new SumOfLeftLeaves().test();
-        new Sum2().test();
+//        new Sum2().test();
+        new Atoi().test();
     }
 }
