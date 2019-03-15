@@ -10,7 +10,7 @@ import util.LogUtil;
 public class Sum2 {
     public void test() {
         int[] array = {-5, -1, 0, 5, 9, 11, 13, 15, 22, 35, 46};
-        int[] result = getSum(array, 31);
+        int[] result = getSum(array, 3);
         LogUtil.Companion.d("" + result[0] + " " + result[1]);
     }
 
@@ -27,8 +27,10 @@ public class Sum2 {
             }
             result[0] = array[headIndex];
             result[1] = array[tailIndex];
+            if (headIndex >= tailIndex) {
+                return result;
+            }
         }
-
         return result;
     }
 }
