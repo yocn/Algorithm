@@ -91,6 +91,8 @@ public class Main {
 //        new LongestUnivaluePath().test();
 //        new RomanToInteger().test();
 //        new ReverseInteger().test();
-        new Sum3().test();
+//        new Sum3().test();
+//        new SumOfLeftLeaves().test();
+        new Sum2().test();
     }
 }

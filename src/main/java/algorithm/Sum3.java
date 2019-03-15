@@ -3056,6 +3056,7 @@ public class Sum3 {
         }
         return false;
     }
+
     private boolean isEqual(List<Integer> src, List<Integer> tar) {
         boolean result = false;
         if (src.get(0) == tar.get(0) && src.get(1) == tar.get(1) && src.get(2) == tar.get(2)) {

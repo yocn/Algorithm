@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcb7c27-f322-400b-be45-3dfdcf5f26c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Sum3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Sum2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/algorithm/Sum3.class" afterPath="$PROJECT_DIR$/build/classes/main/algorithm/Sum3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/Sum3.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Sum3.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,16 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgramming/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RomanToInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/RomanToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,13 +82,220 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sum3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-267">
-              <caret line="3030" column="4" lean-forward="false" selection-start-line="3030" selection-start-column="4" selection-end-line="3074" selection-end-column="5" />
+            <state relative-caret-position="417">
+              <caret line="3022" column="0" lean-forward="true" selection-start-line="3022" selection-start-column="0" selection-end-line="3022" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mutex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testAQS/Mutex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumOfLeftLeaves.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sum2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#AbstractQueuedSynchronizer#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#SHARED#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#EXCLUSIVE#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#CANCELLED#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#SIGNAL#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#CONDITION#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#PROPAGATE#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#waitStatus#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#prev#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#next#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#thread#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#nextWaiter#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#isShared#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#predecessor#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#predecessor#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#Node#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#Node#1;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#Node#2;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#head#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#tail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#state#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#setState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#compareAndSetState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#spinForTimeoutThreshold#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#enq#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#setHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#setHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#unparkSuccessor#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#unparkSuccessor#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#setHeadAndPropagate#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#setHeadAndPropagate#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#cancelAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#cancelAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="e#29916#29978#0" expanded="false" />
+                <element signature="e#30150#30201#0" expanded="false" />
+                <element signature="e#30569#30626#0" expanded="false" />
+                <element signature="docComment;method#shouldParkAfterFailedAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#shouldParkAfterFailedAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#selfInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="e#32644#32645#0" expanded="true" />
+                <element signature="e#32694#32695#0" expanded="true" />
+                <element signature="docComment;method#parkAndCheckInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#parkAndCheckInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doAcquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doAcquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doAcquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doAcquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#tryAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#tryRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#tryAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#tryReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#isHeldExclusively#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#acquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#acquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#acquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#tryAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#tryAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#release#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#release#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#acquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#acquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#acquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#acquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#tryAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#tryAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#releaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#hasQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#hasContended#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#fullGetFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#fullGetFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#isQueued#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#isQueued#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#apparentlyFirstQueuedIsExclusive#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#apparentlyFirstQueuedIsExclusive#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="e#59642#59702#0" expanded="false" />
+                <element signature="docComment;method#getQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getExclusiveQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getExclusiveQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getSharedQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getSharedQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#toString#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#isOnSyncQueue#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#isOnSyncQueue#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#findNodeFromTail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#findNodeFromTail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#transferForSignal#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#transferForSignal#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#transferAfterCancelledWait#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#fullyRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#fullyRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#owns#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#hasWaiters#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#hasWaiters#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getWaitQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getWaitQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getWaitingThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getWaitingThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#firstWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#lastWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#ConditionObject#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#addConditionWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#addConditionWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doSignal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doSignal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#doSignalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#doSignalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#signal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#signal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#signalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#signalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#awaitUninterruptibly#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#awaitUninterruptibly#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#REINTERRUPT#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#THROW_IE#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#await#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#await#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#awaitNanos#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#awaitNanos#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#awaitUntil#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#awaitUntil#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#await#1;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#await#1;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#isOwnedBy#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#hasWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#hasWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getWaitQueueLength#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getWaitQueueLength#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#getWaitingThreads#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#getWaitingThreads#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;field#unsafe#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="initializer##0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#compareAndSetHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#compareAndSetHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#compareAndSetWaitStatus#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#compareAndSetWaitStatus#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="docComment;method#compareAndSetNext#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+                <element signature="method#compareAndSetNext#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,8 +304,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+            <state relative-caret-position="670">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -564,13 +765,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/IsPalindromic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/EightQueen.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/TraverseBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/proxy/AlgoFactory.kt" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Combinations.java" />
         <option value="$PROJECT_DIR$/src/main/java/proxy/SimpleDyncProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/SimpleDynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/retrofit/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/retrofit/ApiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/retrofit/MyConverter.java" />
@@ -613,8 +811,11 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ImplementStrStr.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ReverseInteger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxy/SimpleDynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Sum3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/Sum2.java" />
       </list>
     </option>
   </component>
@@ -707,6 +908,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm_Kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm_Kotlin_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testAQS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm_Kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm_Kotlin_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1286,12 +1539,12 @@
       <workItem from="1551418432035" duration="8221000" />
       <workItem from="1551772034884" duration="7707000" />
       <workItem from="1551854788856" duration="32431000" />
-      <workItem from="1552385038404" duration="10743000" />
+      <workItem from="1552385038404" duration="15442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257809000" />
+    <option name="totallyTimeSpent" value="262508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1320,11 +1573,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255102" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Codota" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Codota" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29400977" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29400977" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19498777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1347,7 +1600,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1356,34 +1609,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/Call.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/internal/http/RealInterceptorChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="107" column="24" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/HttpUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23622">
-          <caret line="287" column="19" lean-forward="false" selection-start-line="287" selection-start-column="19" selection-end-line="287" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/internal/http2/Http2Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/internal/http/RetryAndFollowUpInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -1556,6 +1781,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14202#0" expanded="false" />
+            <element signature="docComment;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#lock#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#lockInterruptibly#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#tryLock#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#tryLock#1;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#unlock#0;class#Lock#0" expanded="false" />
+            <element signature="docComment;method#newCondition#0;class#Lock#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1578,6 +1813,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="49" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1631,6 +1870,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
           <caret line="92" column="36" lean-forward="true" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+          <folding>
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1695,24 +1938,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1812">
-          <caret line="604" column="39" lean-forward="true" selection-start-line="604" selection-start-column="39" selection-end-line="604" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testAQS/TestAQS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testAQS/Mutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="class#Product#0;class#TestAQS#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1851,21 +2083,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/SimpleDynamicProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+        <state relative-caret-position="211">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="3030" column="4" lean-forward="false" selection-start-line="3030" selection-start-column="4" selection-end-line="3074" selection-end-column="5" />
+        <state relative-caret-position="417">
+          <caret line="3022" column="0" lean-forward="true" selection-start-line="3022" selection-start-column="0" selection-end-line="3022" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#AbstractQueuedSynchronizer#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#SHARED#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#EXCLUSIVE#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#CANCELLED#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#SIGNAL#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#CONDITION#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#PROPAGATE#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#waitStatus#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#prev#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#next#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#thread#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#nextWaiter#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isShared#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#predecessor#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#predecessor#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#Node#0;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#Node#1;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#Node#2;class#Node#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#head#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#tail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#state#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#setState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetState#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#spinForTimeoutThreshold#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#enq#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#setHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#setHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#unparkSuccessor#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#unparkSuccessor#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#setHeadAndPropagate#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#setHeadAndPropagate#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#cancelAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#cancelAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#29916#29978#0" expanded="false" />
+            <element signature="e#30150#30201#0" expanded="false" />
+            <element signature="e#30569#30626#0" expanded="false" />
+            <element signature="docComment;method#shouldParkAfterFailedAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#shouldParkAfterFailedAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#selfInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#32644#32645#0" expanded="true" />
+            <element signature="e#32694#32695#0" expanded="true" />
+            <element signature="docComment;method#parkAndCheckInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#parkAndCheckInterrupt#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doAcquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doAcquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryReleaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isHeldExclusively#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquire#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#acquireInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#tryAcquireNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#release#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#release#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#acquireShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#acquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#acquireSharedInterruptibly#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#tryAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#tryAcquireSharedNanos#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#releaseShared#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#hasQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#hasContended#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#fullGetFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#fullGetFirstQueuedThread#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isQueued#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#isQueued#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#apparentlyFirstQueuedIsExclusive#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#apparentlyFirstQueuedIsExclusive#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="e#59642#59702#0" expanded="false" />
+            <element signature="docComment;method#getQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getExclusiveQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getExclusiveQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getSharedQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getSharedQueuedThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#toString#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isOnSyncQueue#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#isOnSyncQueue#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#findNodeFromTail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#findNodeFromTail#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#transferForSignal#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#transferForSignal#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#transferAfterCancelledWait#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#fullyRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#fullyRelease#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#owns#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#hasWaiters#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#hasWaiters#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getWaitQueueLength#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitingThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getWaitingThreads#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#firstWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#lastWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#ConditionObject#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#addConditionWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#addConditionWaiter#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doSignal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doSignal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#doSignalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#doSignalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#signal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#signal#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#signalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#signalAll#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#awaitUninterruptibly#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#awaitUninterruptibly#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#REINTERRUPT#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#THROW_IE#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#await#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#await#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#awaitNanos#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#awaitNanos#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#awaitUntil#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#awaitUntil#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#await#1;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#await#1;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#isOwnedBy#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#hasWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#hasWaiters#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitQueueLength#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getWaitQueueLength#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#getWaitingThreads#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#getWaitingThreads#0;class#ConditionObject#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;field#unsafe#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="initializer##0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#compareAndSetHead#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetWaitStatus#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#compareAndSetWaitStatus#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="docComment;method#compareAndSetNext#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+            <element signature="method#compareAndSetNext#0;class#AbstractQueuedSynchronizer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testAQS/Mutex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/backtracing/ArrangeAllString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
