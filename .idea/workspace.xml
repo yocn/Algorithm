@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcb7c27-f322-400b-be45-3dfdcf5f26c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Atoi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/algorithm/Atoi.class" afterPath="$PROJECT_DIR$/build/classes/main/algorithm/Atoi.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/Sum2.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Sum2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/Atoi.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Atoi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,7 +47,7 @@
       <file leaf-file-name="Sum3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="51323">
               <caret line="3022" column="0" lean-forward="false" selection-start-line="3022" selection-start-column="0" selection-end-line="3022" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="Mutex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testAQS/Mutex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="561">
               <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
               <folding />
             </state>
@@ -69,7 +69,7 @@
       <file leaf-file-name="SumOfLeftLeaves.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="459">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#412#413#0" expanded="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="Sum2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="255">
               <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,7 +104,7 @@
       <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/Hashtable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="2227">
               <caret line="572" column="23" lean-forward="false" selection-start-line="572" selection-start-column="11" selection-end-line="572" selection-end-column="23" />
               <folding>
                 <element signature="docComment;class#Hashtable#0" expanded="false" />
@@ -165,9 +165,7 @@
                 <element signature="method#hashCode#0;class#Hashtable#0" expanded="false" />
                 <element signature="method#getOrDefault#0;class#Hashtable#0" expanded="false" />
                 <element signature="e#30584#30614#0" expanded="false" />
-                <element signature="e#30584#30614#0" expanded="false" />
                 <element signature="method#forEach#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#31278#31308#0" expanded="false" />
                 <element signature="e#31278#31308#0" expanded="false" />
                 <element signature="method#replaceAll#0;class#Hashtable#0" expanded="false" />
                 <element signature="method#putIfAbsent#0;class#Hashtable#0" expanded="false" />
@@ -207,11 +205,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Atoi.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Atoi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Atoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="381">
+              <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -220,7 +218,7 @@
       <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-940">
+            <state relative-caret-position="442">
               <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
               <folding />
             </state>
@@ -401,11 +399,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="857">
-              <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+            <state relative-caret-position="245">
+              <caret line="69" column="3" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -914,8 +912,8 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Sum3.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Sum2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Atoi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -1613,12 +1611,13 @@
       <workItem from="1551418432035" duration="8221000" />
       <workItem from="1551772034884" duration="7707000" />
       <workItem from="1551854788856" duration="32431000" />
-      <workItem from="1552385038404" duration="21373000" />
+      <workItem from="1552385038404" duration="24028000" />
+      <workItem from="1552908094412" duration="503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268439000" />
+    <option name="totallyTimeSpent" value="271597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1651,7 +1650,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29400977" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40342298" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19498777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1827,16 +1826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14202#0" expanded="false" />
-            <element signature="docComment;class#Lock#0" expanded="false" />
-            <element signature="docComment;method#lock#0;class#Lock#0" expanded="false" />
-            <element signature="docComment;method#lockInterruptibly#0;class#Lock#0" expanded="false" />
-            <element signature="docComment;method#tryLock#0;class#Lock#0" expanded="false" />
-            <element signature="docComment;method#tryLock#1;class#Lock#0" expanded="false" />
-            <element signature="docComment;method#unlock#0;class#Lock#0" expanded="false" />
-            <element signature="docComment;method#newCondition#0;class#Lock#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1859,10 +1848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="49" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="false" />
-            <element signature="e#1708#1709#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1906,9 +1891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1916,10 +1898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
           <caret line="92" column="36" lean-forward="true" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
-          <folding>
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1934,53 +1912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1261">
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1629#1630#0" expanded="false" />
-            <element signature="e#1711#1712#0" expanded="false" />
-            <element signature="e#1759#1760#0" expanded="false" />
-            <element signature="e#1811#1812#0" expanded="false" />
-            <element signature="e#1846#1847#0" expanded="false" />
-            <element signature="e#1927#1928#0" expanded="false" />
-            <element signature="e#1963#1964#0" expanded="false" />
-            <element signature="e#2030#2031#0" expanded="false" />
-            <element signature="e#2066#2067#0" expanded="false" />
-            <element signature="e#2112#2113#0" expanded="false" />
-            <element signature="e#2696#2697#0" expanded="false" />
-            <element signature="e#2754#2755#0" expanded="false" />
-            <element signature="e#2913#2914#0" expanded="false" />
-            <element signature="e#2947#2948#0" expanded="false" />
-            <element signature="e#3683#3684#0" expanded="false" />
-            <element signature="e#3723#3724#0" expanded="false" />
-            <element signature="e#3760#3761#0" expanded="false" />
-            <element signature="e#3824#3825#0" expanded="false" />
-            <element signature="e#3850#3851#0" expanded="false" />
-            <element signature="e#3877#3878#0" expanded="false" />
-            <element signature="e#4020#4021#0" expanded="false" />
-            <element signature="e#4068#4069#0" expanded="false" />
-            <element signature="e#4264#4265#0" expanded="false" />
-            <element signature="e#4295#4296#0" expanded="false" />
-            <element signature="e#4334#4335#0" expanded="false" />
-            <element signature="e#4376#4377#0" expanded="false" />
-            <element signature="e#4409#4410#0" expanded="false" />
-            <element signature="e#4451#4452#0" expanded="false" />
-            <element signature="e#4497#4498#0" expanded="false" />
-            <element signature="e#4544#4545#0" expanded="false" />
-            <element signature="e#4577#4578#0" expanded="false" />
-            <element signature="e#4615#4616#0" expanded="false" />
-            <element signature="e#4652#4653#0" expanded="false" />
-            <element signature="e#4699#4700#0" expanded="false" />
-            <element signature="e#4734#4735#0" expanded="false" />
-            <element signature="e#4772#4773#0" expanded="false" />
-            <element signature="e#4819#4820#0" expanded="false" />
-            <element signature="e#4865#4866#0" expanded="false" />
-            <element signature="e#4924#4925#0" expanded="false" />
-            <element signature="e#4968#4969#0" expanded="false" />
-            <element signature="e#5009#5010#0" expanded="false" />
-            <element signature="e#5053#5054#0" expanded="false" />
-            <element signature="e#5108#5109#0" expanded="false" />
-            <element signature="e#5154#5155#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1988,9 +1919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="class#Product#0;class#TestAQS#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1998,97 +1926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="118" column="44" lean-forward="false" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
-          <folding>
-            <element signature="method#AQS#0;class#AQS#0" expanded="false" />
-            <element signature="class#Node#0;class#AQS#0" expanded="false" />
-            <element signature="method#predecessor#0;class#Node#0;class#AQS#0" expanded="false" />
-            <element signature="method#Node#0;class#Node#0;class#AQS#0" expanded="false" />
-            <element signature="method#Node#1;class#Node#0;class#AQS#0" expanded="false" />
-            <element signature="method#Node#2;class#Node#0;class#AQS#0" expanded="false" />
-            <element signature="method#compareAndSetState#0;class#AQS#0" expanded="false" />
-            <element signature="method#enq#0;class#AQS#0" expanded="false" />
-            <element signature="method#addWaiter#0;class#AQS#0" expanded="false" />
-            <element signature="method#setHead#0;class#AQS#0" expanded="false" />
-            <element signature="method#unparkSuccessor#0;class#AQS#0" expanded="false" />
-            <element signature="method#doReleaseShared#0;class#AQS#0" expanded="false" />
-            <element signature="method#setHeadAndPropagate#0;class#AQS#0" expanded="false" />
-            <element signature="method#cancelAcquire#0;class#AQS#0" expanded="false" />
-            <element signature="e#4998#5060#0" expanded="false" />
-            <element signature="e#5232#5283#0" expanded="false" />
-            <element signature="e#5651#5708#0" expanded="false" />
-            <element signature="method#shouldParkAfterFailedAcquire#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#selfInterrupt#0;class#AQS#0" expanded="false" />
-            <element signature="method#parkAndCheckInterrupt#0;class#AQS#0" expanded="false" />
-            <element signature="method#acquireQueued#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#doAcquireInterruptibly#0;class#AQS#0" expanded="false" />
-            <element signature="method#doAcquireInterruptibly#0;class#AQS#0" expanded="false" />
-            <element signature="method#doAcquireNanos#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#doAcquireShared#0;class#AQS#0" expanded="false" />
-            <element signature="method#doAcquireShared#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#doAcquireSharedInterruptibly#0;class#AQS#0" expanded="false" />
-            <element signature="method#doAcquireSharedInterruptibly#0;class#AQS#0" expanded="false" />
-            <element signature="method#doAcquireSharedNanos#0;class#AQS#0" expanded="false" />
-            <element signature="method#acquire#0;class#AQS#0" expanded="false" />
-            <element signature="method#acquireInterruptibly#0;class#AQS#0" expanded="false" />
-            <element signature="method#tryAcquireNanos#0;class#AQS#0" expanded="false" />
-            <element signature="method#release#0;class#AQS#0" expanded="false" />
-            <element signature="method#acquireShared#0;class#AQS#0" expanded="false" />
-            <element signature="method#acquireSharedInterruptibly#0;class#AQS#0" expanded="false" />
-            <element signature="method#tryAcquireSharedNanos#0;class#AQS#0" expanded="false" />
-            <element signature="method#releaseShared#0;class#AQS#0" expanded="false" />
-            <element signature="method#getFirstQueuedThread#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#fullGetFirstQueuedThread#0;class#AQS#0" expanded="false" />
-            <element signature="method#fullGetFirstQueuedThread#0;class#AQS#0" expanded="false" />
-            <element signature="method#isQueued#0;class#AQS#0" expanded="false" />
-            <element signature="method#apparentlyFirstQueuedIsExclusive#0;class#AQS#0" expanded="false" />
-            <element signature="method#hasQueuedPredecessors#0;class#AQS#0" expanded="false" />
-            <element signature="e#17101#17161#0" expanded="false" />
-            <element signature="method#getQueueLength#0;class#AQS#0" expanded="false" />
-            <element signature="method#getQueuedThreads#0;class#AQS#0" expanded="false" />
-            <element signature="method#getExclusiveQueuedThreads#0;class#AQS#0" expanded="false" />
-            <element signature="method#getSharedQueuedThreads#0;class#AQS#0" expanded="false" />
-            <element signature="method#toString#0;class#AQS#0" expanded="false" />
-            <element signature="method#isOnSyncQueue#0;class#AQS#0" expanded="false" />
-            <element signature="method#findNodeFromTail#0;class#AQS#0" expanded="false" />
-            <element signature="method#transferForSignal#0;class#AQS#0" expanded="false" />
-            <element signature="method#transferAfterCancelledWait#0;class#AQS#0" expanded="false" />
-            <element signature="method#fullyRelease#0;class#AQS#0" expanded="false" />
-            <element signature="method#hasWaiters#0;class#AQS#0" expanded="false" />
-            <element signature="method#getWaitQueueLength#0;class#AQS#0" expanded="false" />
-            <element signature="method#getWaitingThreads#0;class#AQS#0" expanded="false" />
-            <element signature="class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;field#firstWaiter#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;field#lastWaiter#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#ConditionObject#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#ConditionObject#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#addConditionWaiter#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#doSignal#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#doSignalAll#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#unlinkCancelledWaiters#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#signal#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#signalAll#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#awaitUninterruptibly#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;field#REINTERRUPT#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;field#THROW_IE#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#checkInterruptWhileWaiting#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#reportInterruptAfterWait#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#await#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#awaitNanos#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#awaitUntil#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#await#1;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#hasWaiters#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#getWaitQueueLength#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="method#getWaitingThreads#0;class#ConditionObject#0;class#AQS#0" expanded="false" />
-            <element signature="initializer##0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#compareAndSetHead#0;class#AQS#0" expanded="false" />
-            <element signature="method#compareAndSetHead#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#compareAndSetTail#0;class#AQS#0" expanded="false" />
-            <element signature="method#compareAndSetTail#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#compareAndSetWaitStatus#0;class#AQS#0" expanded="false" />
-            <element signature="method#compareAndSetWaitStatus#0;class#AQS#0" expanded="false" />
-            <element signature="docComment;method#compareAndSetNext#0;class#AQS#0" expanded="false" />
-            <element signature="method#compareAndSetNext#0;class#AQS#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2096,7 +1933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2104,7 +1940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
           <caret line="131" column="1" lean-forward="false" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2112,10 +1947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2123,9 +1954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2133,13 +1961,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="51323">
           <caret line="3022" column="0" lean-forward="false" selection-start-line="3022" selection-start-column="0" selection-end-line="3022" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2321,7 +2148,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testAQS/Mutex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="561">
           <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
@@ -2329,7 +2156,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="459">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#412#413#0" expanded="true" />
@@ -2342,13 +2169,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Sum2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="255">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2366,7 +2192,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
+        <state relative-caret-position="442">
           <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
           <folding />
         </state>
@@ -2374,7 +2200,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="2227">
           <caret line="572" column="23" lean-forward="false" selection-start-line="572" selection-start-column="11" selection-end-line="572" selection-end-column="23" />
           <folding>
             <element signature="docComment;class#Hashtable#0" expanded="false" />
@@ -2435,9 +2261,7 @@
             <element signature="method#hashCode#0;class#Hashtable#0" expanded="false" />
             <element signature="method#getOrDefault#0;class#Hashtable#0" expanded="false" />
             <element signature="e#30584#30614#0" expanded="false" />
-            <element signature="e#30584#30614#0" expanded="false" />
             <element signature="method#forEach#0;class#Hashtable#0" expanded="false" />
-            <element signature="e#31278#31308#0" expanded="false" />
             <element signature="e#31278#31308#0" expanded="false" />
             <element signature="method#replaceAll#0;class#Hashtable#0" expanded="false" />
             <element signature="method#putIfAbsent#0;class#Hashtable#0" expanded="false" />
@@ -2476,18 +2300,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Atoi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+        <state relative-caret-position="381">
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Atoi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="245">
+          <caret line="69" column="3" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
           <folding />
         </state>
       </provider>

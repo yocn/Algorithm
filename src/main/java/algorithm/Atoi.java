@@ -43,59 +43,46 @@ import util.LogUtil;
  */
 public class Atoi {
     public void test() {
-        int result = myAtoi("  4193 with words");
+//        int result = myAtoi("  4193 with words");
+        int result = myAtoi("  -4-2");
         LogUtil.Companion.d(result);
     }
 
     public int myAtoi(String str) {
         str = str.trim();
         int result = 0;
-        int validHeadIndex = 0;
-        int validTailIndex = 0;
+        boolean isMinus = false;
         StringBuilder sb = new StringBuilder();
         char[] chars = str.toCharArray();
         for (int i = 0; i < chars.length; i++) {
-            if (!isNum(chars[0])) {
+            if (!isNum(chars[0]) && chars[0] != '-') {
                 return 0;
             }
-            if (chars[i] == '-' || (chars[i] >= '0' && chars[i] <= '9')) {
-                if (validHeadIndex == 0) {
-                    validHeadIndex = i;
-                }
+            if (i == 0 && chars[i] == '-') {
+                isMinus = true;
+                continue;
+            }
+            if (isNum(chars[i])) {
                 sb.append(chars[i]);
             } else {
-                if (i >= validHeadIndex) {
-                    validTailIndex = i - 1;
+                if (i > 0) {
                     break;
                 }
             }
-            if (validTailIndex == 0 && i == chars.length - 1) {
-                validTailIndex = i - 1;
-                break;
-            }
             long temp = Long.parseLong(sb.toString());
-            LogUtil.Companion.d("c->" + chars[i] + " i->" + i +
-                    " validHeadIndex->" + validHeadIndex + " validTailIndex-》" + validTailIndex
-                    + " " + sb.toString() + " " + temp);
             if (temp > Integer.MAX_VALUE) {
                 result = Integer.MAX_VALUE;
             } else if (temp < Integer.MIN_VALUE) {
                 result = Integer.MIN_VALUE;
             } else {
                 result = (int) temp;
-                LogUtil.Companion.d("result-" + result);
             }
         }
-        LogUtil.Companion.d("result222-" + result);
-        return result;
+        return isMinus ? -result : result;
     }
 
     private boolean isNum(char c) {
-        if (c == '-' || (c >= '0' && c <= '9')) {
-            return true;
-        } else {
-            return false;
-        }
+        return c >= '0' && c <= '9';
     }
 
 }
