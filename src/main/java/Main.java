@@ -99,6 +99,7 @@ public class Main {
 //        new Sum3().test();
 //        new SumOfLeftLeaves().test();
 //        new Sum2().test();
-        new Atoi().test();
+//        new Atoi().test();
+        new ChainAdd().test();
     }
 }
