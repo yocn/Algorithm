@@ -100,6 +100,7 @@ public class Main {
 //        new SumOfLeftLeaves().test();
 //        new Sum2().test();
 //        new Atoi().test();
-        new ChainAdd().test();
+//        new ChainAdd().test();
+        new GetStep().test();
     }
 }

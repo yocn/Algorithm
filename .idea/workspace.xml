@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcb7c27-f322-400b-be45-3dfdcf5f26c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/algorithm/GetStep.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/GetStep.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/GetStep.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,183 +43,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/Hashtable.java">
+      <file leaf-file-name="GetStep.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/GetStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="572" column="23" lean-forward="false" selection-start-line="572" selection-start-column="11" selection-end-line="572" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#49422#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#table#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#count#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#threshold#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#loadFactor#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#modCount#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#serialVersionUID#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#Hashtable#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#Hashtable#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#Hashtable#1;class#Hashtable#0" expanded="false" />
-                <element signature="e#7700#7701#0" expanded="false" />
-                <element signature="e#7744#7745#0" expanded="false" />
-                <element signature="docComment;method#Hashtable#2;class#Hashtable#0" expanded="false" />
-                <element signature="e#7895#7896#0" expanded="false" />
-                <element signature="e#7926#7927#0" expanded="false" />
-                <element signature="docComment;method#Hashtable#3;class#Hashtable#0" expanded="false" />
-                <element signature="method#Hashtable#3;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#size#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#8624#8625#0" expanded="false" />
-                <element signature="e#8652#8653#0" expanded="false" />
-                <element signature="docComment;method#isEmpty#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#8897#8898#0" expanded="false" />
-                <element signature="e#8930#8931#0" expanded="false" />
-                <element signature="docComment;method#keys#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#9227#9228#0" expanded="false" />
-                <element signature="e#9278#9279#0" expanded="false" />
-                <element signature="docComment;method#elements#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#9690#9691#0" expanded="false" />
-                <element signature="e#9743#9744#0" expanded="false" />
-                <element signature="docComment;method#contains#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#contains#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#containsValue#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#11514#11515#0" expanded="false" />
-                <element signature="e#11552#11553#0" expanded="false" />
-                <element signature="docComment;method#containsKey#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#containsKey#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#get#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#get#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#MAX_ARRAY_SIZE#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#rehash#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#rehash#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#put#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#remove#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#remove#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#putAll#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#putAll#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#clear#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#clone#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#clone#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#toString#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#toString#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#getEnumeration#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#getIterator#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#keySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#keySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#keySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="class#KeySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#23160#23161#0" expanded="false" />
-                <element signature="e#23208#23209#0" expanded="false" />
-                <element signature="e#23236#23237#0" expanded="false" />
-                <element signature="e#23272#23273#0" expanded="false" />
-                <element signature="e#23316#23317#0" expanded="false" />
-                <element signature="e#23361#23362#0" expanded="false" />
-                <element signature="e#23403#23404#0" expanded="false" />
-                <element signature="e#23466#23467#0" expanded="false" />
-                <element signature="e#23496#23497#0" expanded="false" />
-                <element signature="e#23542#23543#0" expanded="false" />
-                <element signature="docComment;method#entrySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#entrySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="class#EntrySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#24674#24675#0" expanded="false" />
-                <element signature="e#24725#24726#0" expanded="false" />
-                <element signature="e#24773#24774#0" expanded="false" />
-                <element signature="e#24816#24817#0" expanded="false" />
-                <element signature="method#contains#0;class#EntrySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#remove#0;class#EntrySet#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#26306#26307#0" expanded="false" />
-                <element signature="e#26342#26343#0" expanded="false" />
-                <element signature="e#26373#26374#0" expanded="false" />
-                <element signature="e#26419#26420#0" expanded="false" />
-                <element signature="docComment;method#values#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#values#0;class#Hashtable#0" expanded="false" />
-                <element signature="class#ValueCollection#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#27545#27546#0" expanded="false" />
-                <element signature="e#27595#27596#0" expanded="false" />
-                <element signature="e#27623#27624#0" expanded="false" />
-                <element signature="e#27659#27660#0" expanded="false" />
-                <element signature="e#27703#27704#0" expanded="false" />
-                <element signature="e#27750#27751#0" expanded="false" />
-                <element signature="e#27780#27781#0" expanded="false" />
-                <element signature="e#27826#27827#0" expanded="false" />
-                <element signature="docComment;method#equals#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#equals#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#hashCode#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#getOrDefault#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#30584#30614#0" expanded="false" />
-                <element signature="method#forEach#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#31278#31308#0" expanded="false" />
-                <element signature="method#replaceAll#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#putIfAbsent#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#remove#1;class#Hashtable#0" expanded="false" />
-                <element signature="method#replace#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#replace#1;class#Hashtable#0" expanded="false" />
-                <element signature="method#computeIfAbsent#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#computeIfPresent#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#compute#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#merge#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#writeObject#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#writeObject#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;method#readObject#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#readObject#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#41410#41472#0" expanded="false" />
-                <element signature="e#41620#41679#0" expanded="false" />
-                <element signature="docComment;method#reconstitutionPut#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#reconstitutionPut#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#43395#43449#0" expanded="false" />
-                <element signature="docComment;class#Entry#0;class#Hashtable#0" expanded="false" />
-                <element signature="class#Entry#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#Entry#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#clone#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#44695#44696#0" expanded="false" />
-                <element signature="e#44729#44730#0" expanded="false" />
-                <element signature="e#44760#44761#0" expanded="false" />
-                <element signature="e#44796#44797#0" expanded="false" />
-                <element signature="method#setValue#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#equals#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#45392#45393#0" expanded="false" />
-                <element signature="e#45453#45454#0" expanded="false" />
-                <element signature="e#45489#45490#0" expanded="false" />
-                <element signature="e#45555#45556#0" expanded="false" />
-                <element signature="docComment;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#iterator#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="docComment;field#expectedModCount#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#Enumerator#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#hasMoreElements#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#nextElement#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="e#47964#47965#0" expanded="false" />
-                <element signature="e#48012#48013#0" expanded="false" />
-                <element signature="method#next#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-                <element signature="method#remove#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Atoi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Atoi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-              <folding>
-                <element signature="e#2281#2282#0" expanded="false" />
-                <element signature="e#2324#2325#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/sun_jdk/Contents/Home/src.zip!/java/util/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#5569#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,73 +56,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOKHttp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/okhttp/TestOKHttp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/internal/cache/CacheInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChainAdd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ChainAdd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-              <folding>
-                <element signature="e#3814#3815#0" expanded="true" />
-                <element signature="e#3852#3853#0" expanded="true" />
-                <element signature="e#3888#3889#0" expanded="true" />
-                <element signature="e#3931#3932#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetStep.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/GetStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/okhttp/MyInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interceptor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/2647551116856a6403d1a21e236837a7501c08a8/okhttp-3.12.0-sources.jar!/okhttp3/Interceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="823">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -800,8 +565,8 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/SumOfLeftLeaves.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Sum2.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Atoi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ChainAdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/GetStep.java" />
       </list>
     </option>
@@ -894,32 +659,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm_Kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm_Kotlin_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1475,12 +1214,12 @@
       <workItem from="1551772034884" duration="7707000" />
       <workItem from="1551854788856" duration="32431000" />
       <workItem from="1552385038404" duration="24028000" />
-      <workItem from="1552908094412" duration="8055000" />
+      <workItem from="1552908094412" duration="11384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279149000" />
+    <option name="totallyTimeSpent" value="282478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1513,10 +1252,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40342298" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
+      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28239608" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" x="0" y="23" width="1680" height="977" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19498777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19498777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2368,14 +2107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ChainAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -2389,10 +2120,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/GetStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding />
         </state>
       </provider>
