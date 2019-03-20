@@ -2,6 +2,7 @@ import DynamicProgramming.Fibonacci;
 import algorithm.*;
 import algorithm.backtracing.CombinationNum2;
 import algorithm.backtracing.Permutations;
+import algorithm.base.BinarySearch;
 import testAQS.TestAQS;
 import util.LogUtil;
 
@@ -101,6 +102,7 @@ public class Main {
 //        new Sum2().test();
 //        new Atoi().test();
 //        new ChainAdd().test();
-        new GetStep().test();
+//        new GetStep().test();
+        new BinarySearch().test();
     }
 }
