@@ -5,6 +5,7 @@ import util.LogUtil;
 
 /**
  * Created by yocn on 2019/3/20.
+ * https://www.cnblogs.com/onepixel/articles/7674659.html
  * 冒泡排序
  * 原理：比较两个相邻的元素，将值大的元素交换至右端。
  * 思路：依次比较相邻的两个数，将小数放在前面，大数放在后面。即在第一趟：首先比较第1个和第2个数，将小数放前，大数放后。然后比较第2个数和第3个数，将小数放前，大数放后，如此继续，直至比较最后两个数，将小数放前，大数放后。重复第一趟步骤，直至全部排序完成。
@@ -15,8 +16,7 @@ import util.LogUtil;
 public class BubbleSort implements ITestInterface {
     @Override
     public void test() {
-        int[] src = new int[]{2, 5, 5, 8, 0, 4, 10, 9, 33, 7, 32, 5, 8, 9, 12, 15, 17, 25, 28};
-        sort(src);
+        sort(Constants.src);
     }
 
     public void sort(int[] ints) {
@@ -27,17 +27,10 @@ public class BubbleSort implements ITestInterface {
                     ints[j + 1] = ints[j];
                     ints[j] = temp;
                 }
-                printInts(ints);
+                Constants.printInts(ints);
             }
             LogUtil.Companion.d("----------");
         }
     }
 
-    private void printInts(int[] ints) {
-        StringBuilder sb = new StringBuilder();
-        for (int i : ints) {
-            sb.append(i).append(" ");
-        }
-        LogUtil.Companion.d(sb.toString());
-    }
 }
