@@ -15,4 +15,15 @@ public class Constants {
         }
         LogUtil.Companion.d(sb.toString());
     }
+
+    public static void printInts(int[] ints, int divider) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < ints.length; i++) {
+            sb.append(ints[i]).append(" ");
+            if (divider == i) {
+                sb.append(" ");
+            }
+        }
+        LogUtil.Companion.d(sb.toString());
+    }
 }

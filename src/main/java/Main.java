@@ -2,9 +2,7 @@ import DynamicProgramming.Fibonacci;
 import algorithm.*;
 import algorithm.backtracing.CombinationNum2;
 import algorithm.backtracing.Permutations;
-import algorithm.base.BinarySearch;
-import algorithm.base.BubbleSort;
-import algorithm.base.SelectionSort;
+import algorithm.base.*;
 import testAQS.TestAQS;
 import util.LogUtil;
 
@@ -107,7 +105,7 @@ public class Main {
 //        new GetStep().test();
 //        new BinarySearch().test();
 //        ITestInterface test = new BubbleSort();
-        ITestInterface test = new SelectionSort();
+        ITestInterface test = new QuickSort();
         test.test();
     }
 }
