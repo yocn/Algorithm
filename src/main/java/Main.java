@@ -1,18 +1,8 @@
-import DynamicProgramming.Fibonacci;
 import algorithm.*;
-import algorithm.backtracing.CombinationNum2;
-import algorithm.backtracing.Permutations;
-import algorithm.base.*;
-import testAQS.TestAQS;
-import util.LogUtil;
+import algorithm.base.sort.CountingSort;
+import algorithm.base.sort.QuickSort;
 
-import javax.script.ScriptEngineManager;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-import java.util.zip.ZipOutputStream;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -105,7 +95,7 @@ public class Main {
 //        new GetStep().test();
 //        new BinarySearch().test();
 //        ITestInterface test = new BubbleSort();
-        ITestInterface test = new QuickSort();
+        ITestInterface test = new CountingSort();
         test.test();
     }
 }

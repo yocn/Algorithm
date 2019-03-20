@@ -1,6 +1,7 @@
-package algorithm.base;
+package algorithm.base.sort;
 
 import algorithm.ITestInterface;
+import algorithm.base.Constants;
 
 /**
  * Created by yocn on 2019/3/20.

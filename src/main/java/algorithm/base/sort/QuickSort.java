@@ -1,11 +1,13 @@
-package algorithm.base;
+package algorithm.base.sort;
 
 import algorithm.ITestInterface;
+import algorithm.base.Constants;
 
 /**
  * Created by yocn on 2019/3/20.
  * 快速排序
  * https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653195042&idx=1&sn=2b0915cd2298be9f2163cc90a3d464da&chksm=8c99f9f8bbee70eef627d0f5e5b80a604221abb3a1b5617b397fa178582dcb063c9fb6f904b3&scene=21#wechat_redirect
+ * 通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。
  */
 public class QuickSort implements ITestInterface {
     @Override

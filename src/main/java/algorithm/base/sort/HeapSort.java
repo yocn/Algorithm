@@ -1,4 +1,4 @@
-package algorithm.base;
+package algorithm.base.sort;
 
 import algorithm.ITestInterface;
 import util.LogUtil;
