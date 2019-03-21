@@ -3,7 +3,9 @@ package algorithm.binaryTree;
 import algorithm.ITestInterface;
 import util.LogUtil;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 /**
@@ -25,7 +27,9 @@ public class InorderTraversal implements ITestInterface {
      */
     public List<Integer> inorderTraversalByStack(TreeNode root) {
         ArrayList<Integer> list = new ArrayList<>();
-        traversal(root, list);
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        if (root != null) {
+        }
         return list;
     }
 
