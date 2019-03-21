@@ -1,6 +1,7 @@
 import algorithm.*;
 import algorithm.base.sort.CountingSort;
 import algorithm.base.sort.QuickSort;
+import algorithm.binaryTree.InorderTraversal;
 
 import java.io.IOException;
 
@@ -95,7 +96,7 @@ public class Main {
 //        new GetStep().test();
 //        new BinarySearch().test();
 //        ITestInterface test = new BubbleSort();
-        ITestInterface test = new CountingSort();
+        ITestInterface test = new InorderTraversal();
         test.test();
     }
 }
