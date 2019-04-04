@@ -4,8 +4,12 @@ import algorithm.base.sort.QuickSort;
 import algorithm.binaryTree.BinarayTreeLevelTraversal;
 import algorithm.binaryTree.InorderTraversal;
 import algorithm.binaryTree.NaryTreeLevelOrderTraversal;
+import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
+import sun.plugin2.message.GetAppletMessage;
+import util.LogUtil;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -98,7 +102,91 @@ public class Main {
 //        new GetStep().test();
 //        new BinarySearch().test();
 //        ITestInterface test = new BubbleSort();
-        ITestInterface test = new BinarayTreeLevelTraversal();
-        test.test();
+//        ITestInterface test = new BinarayTreeLevelTraversal();
+//        test.test();
+
+//        LogUtil.Companion.d(""+Math.pow(1.01,365));
+
+//        String RC4Key = "1234567890Abcdef";
+//        char[] chars = RC4Key.toCharArray();
+//        int a1 = 0;
+//        int[] tar = new int[4];
+//        for (int i = 0; i < chars.length; i++) {
+//            int digit = i % 4;
+//            int real = chars[i] << 8 * digit;
+//            LogUtil.Companion.d(i + " - " + real + " digit->" + digit);
+//            a1 += real;
+//            if (i % 4 == 3) {
+//                tar[i / 4] = a1;
+//                LogUtil.Companion.d("---------" + a1 + " i/4->" + (i / 4));
+//                a1 = 0;
+//            }
+//        }
+//        for (int i : tar) {
+//            LogUtil.Companion.d("" + i);
+//        }
+
+        int a = 3;
+        int b = 4;
+
+        add(a, b);
+        LogUtil.Companion.d(a);
+        LogUtil.Companion.d(b);
+
+        int[] aa = {1, 2};
+        int[] bb = {3, 4};
+        LogUtil.Companion.d(aa[0] + "|" + aa[1]);
+        LogUtil.Companion.d(bb[0] + "|" + bb[1]);
+
+        String sa = "12";
+        String sb = "12";
+        add(sa, sb);
+        LogUtil.Companion.d(sa);
+        LogUtil.Companion.d(sb);
+
+        Integer ai = Integer.parseInt("12");
+        Integer bi = Integer.parseInt("34");
+        add(ai, bi);
+        LogUtil.Companion.d(ai);
+        LogUtil.Companion.d(bi);
+
+        O ao = new O(1);
+        O bo = new O(2);
+        add(ao, bo);
+        LogUtil.Companion.d(ao.x);
+        LogUtil.Companion.d(bo.x);
+    }
+
+    static class O {
+        public O(int x) {
+            this.x = x;
+        }
+
+        public int x;
+    }
+
+    public static void add(int x, int y) {
+        x++;
+        y++;
+    }
+
+    public static void add(Integer x, Integer y) {
+        x++;
+        y++;
+    }
+
+    public static void add(int[] x, int[] y) {
+        x[0] = 10;
+        y[0] = 10;
+    }
+
+    public static void add(String x, String y) {
+        x += "a";
+        y += "a";
+    }
+
+    public static void add(O x, O y) {
+        x.x++;
+        y.x++;
     }
 }
