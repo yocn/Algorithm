@@ -5,9 +5,16 @@ import algorithm.binaryTree.BinarayTreeLevelTraversal;
 import algorithm.binaryTree.InorderTraversal;
 import algorithm.binaryTree.NaryTreeLevelOrderTraversal;
 import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
+import reflect.testReflect;
+import retrofit.TestRetrofit;
+import structure.TireMap;
 import sun.plugin2.message.GetAppletMessage;
 import util.LogUtil;
+import util.ProductMethod;
+import util.Text2Pic;
 
+import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 
@@ -126,35 +133,39 @@ public class Main {
 //            LogUtil.Companion.d("" + i);
 //        }
 
-        int a = 3;
-        int b = 4;
+//        int a = 3;
+//        int b = 4;
+//
+//        add(a, b);
+//        LogUtil.Companion.d(a);
+//        LogUtil.Companion.d(b);
+//
+//        int[] aa = {1, 2};
+//        int[] bb = {3, 4};
+//        LogUtil.Companion.d(aa[0] + "|" + aa[1]);
+//        LogUtil.Companion.d(bb[0] + "|" + bb[1]);
+//
+//        String sa = "12";
+//        String sb = "12";
+//        add(sa, sb);
+//        LogUtil.Companion.d(sa);
+//        LogUtil.Companion.d(sb);
+//
+//        Integer ai = Integer.parseInt("12");
+//        Integer bi = Integer.parseInt("34");
+//        add(ai, bi);
+//        LogUtil.Companion.d(ai);
+//        LogUtil.Companion.d(bi);
+//
+//        O ao = new O(1);
+//        O bo = new O(2);
+//        add(ao, bo);
+//        LogUtil.Companion.d(ao.x);
+//        LogUtil.Companion.d(bo.x);
 
-        add(a, b);
-        LogUtil.Companion.d(a);
-        LogUtil.Companion.d(b);
-
-        int[] aa = {1, 2};
-        int[] bb = {3, 4};
-        LogUtil.Companion.d(aa[0] + "|" + aa[1]);
-        LogUtil.Companion.d(bb[0] + "|" + bb[1]);
-
-        String sa = "12";
-        String sb = "12";
-        add(sa, sb);
-        LogUtil.Companion.d(sa);
-        LogUtil.Companion.d(sb);
-
-        Integer ai = Integer.parseInt("12");
-        Integer bi = Integer.parseInt("34");
-        add(ai, bi);
-        LogUtil.Companion.d(ai);
-        LogUtil.Companion.d(bi);
-
-        O ao = new O(1);
-        O bo = new O(2);
-        add(ao, bo);
-        LogUtil.Companion.d(ao.x);
-        LogUtil.Companion.d(bo.x);
+//        ProductMethod.productMethod();
+//        new testReflect().test();
+        new TireMap().test();
     }
 
     static class O {
