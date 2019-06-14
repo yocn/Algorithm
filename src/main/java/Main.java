@@ -1,4 +1,5 @@
 import algorithm.*;
+import algorithm.backtracing.ArrangeAllString;
 import algorithm.base.sort.CountingSort;
 import algorithm.base.sort.QuickSort;
 import algorithm.binaryTree.BinarayTreeLevelTraversal;
@@ -7,7 +8,7 @@ import algorithm.binaryTree.NaryTreeLevelOrderTraversal;
 import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
 import reflect.testReflect;
 import retrofit.TestRetrofit;
-import structure.TireMap;
+import structure.TrieTree;
 import sun.plugin2.message.GetAppletMessage;
 import util.LogUtil;
 import util.ProductMethod;
@@ -165,7 +166,8 @@ public class Main {
 
 //        ProductMethod.productMethod();
 //        new testReflect().test();
-        new TireMap().test();
+        new ArrangeAllString().test();
+        new TrieTree().test();
     }
 
     static class O {
