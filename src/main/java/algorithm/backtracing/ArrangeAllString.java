@@ -10,9 +10,21 @@ public class ArrangeAllString {
 
     public void test() {
         pailie("abc", "", 0);
+        simplePailie("abc", "");
     }
 
-    private void pailie(String s, String temp, int level) {//参数设计地尽量地简洁
+    private void simplePailie(String s, String temp) {
+        if (s.length() == 0) {
+            LogUtil.Companion.d("pailie->" + temp);
+            return;
+        }
+        for (int i = 0; i < s.length(); i++) {
+            String news = s.substring(0, i) + s.substring(i + 1, s.length());//去掉String中的第i个字母
+            simplePailie(news, temp + s.charAt(i));
+        }
+    }
+
+    private void pailie(String s, String temp, int level) {
         if (s.length() == 0) {
 //            System.out.println(temp);
             return;

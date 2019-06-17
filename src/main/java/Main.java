@@ -1,5 +1,6 @@
 import algorithm.*;
 import algorithm.backtracing.ArrangeAllString;
+import algorithm.backtracing.GenerateParenttheses;
 import algorithm.base.sort.CountingSort;
 import algorithm.base.sort.QuickSort;
 import algorithm.binaryTree.BinarayTreeLevelTraversal;
@@ -166,8 +167,8 @@ public class Main {
 
 //        ProductMethod.productMethod();
 //        new testReflect().test();
-        new ArrangeAllString().test();
-        new TrieTree().test();
+        new GenerateParenttheses().test();
+//        new TrieTree().test();
     }
 
     static class O {

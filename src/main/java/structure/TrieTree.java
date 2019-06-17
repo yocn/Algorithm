@@ -208,7 +208,7 @@ public class TrieTree {
         String re = result + node.content;
         for (TrieNode n : node.child) {
             visitNode(n, re);
-            LogUtil.Companion.d("result->" + re);
+//            LogUtil.Companion.d("result->" + re);
         }
     }
 }

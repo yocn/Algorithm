@@ -21,11 +21,13 @@ import java.util.List;
 public class GenerateParenttheses {
     public void test() {
         int n = 3;
-        ArrayList<String> results = new ArrayList<String>();//用于存放解空间
-        parentheses("", results, n, n, 0);
+        ArrayList<String> results = new ArrayList<>();//用于存放解空间
+//        parentheses("", results, n, n, 0);
+        recursion("", results, n);
+        LogUtil.Companion.d(results.toString());
     }
 
-    public static void parentheses(String sublist, ArrayList<String> results, int leftnum, int rightnum, int level) {
+    private void parentheses(String sublist, ArrayList<String> results, int leftnum, int rightnum, int level) {
         if (leftnum == 0 && rightnum == 0) {
             results.add(sublist);
         }
@@ -38,5 +40,14 @@ public class GenerateParenttheses {
             //选择和条件。对于不同的if顺序，输出的结果顺序是不一样的，但是构成一样的解空间
             parentheses(sublist + ")", results, leftnum, rightnum - 1, level);
         }
+    }
+
+    private void recursion(String sublist, ArrayList<String> results, int n) {
+        if (n == 0) {
+            results.add(sublist);
+            return;
+        }
+        recursion(sublist + "(", results, n - 1);
+        recursion(sublist + ")", results, n - 1);
     }
 }
