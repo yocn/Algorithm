@@ -64,7 +64,6 @@ public class PascalTriangle {
         return result;
     }
 
-
     /**
      * 获取杨辉三角某一排
      *

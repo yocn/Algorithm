@@ -167,7 +167,8 @@ public class Main {
 
 //        ProductMethod.productMethod();
 //        new testReflect().test();
-        new GenerateParenttheses().test();
+//        new GenerateParenttheses().test();
+        new SortedArray().test();
 //        new TrieTree().test();
     }
 
