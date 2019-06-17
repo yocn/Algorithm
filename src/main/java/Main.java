@@ -4,6 +4,7 @@ import algorithm.backtracing.GenerateParenttheses;
 import algorithm.base.sort.CountingSort;
 import algorithm.base.sort.QuickSort;
 import algorithm.binaryTree.BinarayTreeLevelTraversal;
+import algorithm.binaryTree.CountBinaryTreeNode;
 import algorithm.binaryTree.InorderTraversal;
 import algorithm.binaryTree.NaryTreeLevelOrderTraversal;
 import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
@@ -168,7 +169,8 @@ public class Main {
 //        ProductMethod.productMethod();
 //        new testReflect().test();
 //        new GenerateParenttheses().test();
-        new SortedArray().test();
+//        new SortedArray().test();
+        new CountBinaryTreeNode().test();
 //        new TrieTree().test();
     }
 
