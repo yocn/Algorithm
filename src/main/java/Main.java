@@ -3,10 +3,7 @@ import algorithm.backtracing.ArrangeAllString;
 import algorithm.backtracing.GenerateParenttheses;
 import algorithm.base.sort.CountingSort;
 import algorithm.base.sort.QuickSort;
-import algorithm.binaryTree.BinarayTreeLevelTraversal;
-import algorithm.binaryTree.CountBinaryTreeNode;
-import algorithm.binaryTree.InorderTraversal;
-import algorithm.binaryTree.NaryTreeLevelOrderTraversal;
+import algorithm.binaryTree.*;
 import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
 import reflect.testReflect;
 import retrofit.TestRetrofit;
@@ -170,7 +167,8 @@ public class Main {
 //        new testReflect().test();
 //        new GenerateParenttheses().test();
 //        new SortedArray().test();
-        new CountBinaryTreeNode().test();
+//        new CountBinaryTreeNode().test();
+        new DepthOfBinaryTree().test();
 //        new TrieTree().test();
     }
 
