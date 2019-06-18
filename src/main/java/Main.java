@@ -1,22 +1,7 @@
-import algorithm.*;
-import algorithm.backtracing.ArrangeAllString;
-import algorithm.backtracing.GenerateParenttheses;
-import algorithm.base.sort.CountingSort;
-import algorithm.base.sort.QuickSort;
+import algorithm.LongestSubString;
 import algorithm.binaryTree.*;
-import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
-import reflect.testReflect;
-import retrofit.TestRetrofit;
-import structure.TrieTree;
-import sun.plugin2.message.GetAppletMessage;
-import util.LogUtil;
-import util.ProductMethod;
-import util.Text2Pic;
 
-import java.awt.*;
-import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -109,7 +94,7 @@ public class Main {
 //        new GetStep().test();
 //        new BinarySearch().test();
 //        ITestInterface test = new BubbleSort();
-//        ITestInterface test = new BinarayTreeLevelTraversal();
+//        ITestInterface test = new BinaryTreeBFS();
 //        test.test();
 
 //        LogUtil.Companion.d(""+Math.pow(1.01,365));
@@ -168,8 +153,12 @@ public class Main {
 //        new GenerateParenttheses().test();
 //        new SortedArray().test();
 //        new CountBinaryTreeNode().test();
-        new DepthOfBinaryTree().test();
+//        new DepthOfBinaryTree().test();
+//        new BinaryTreeBFS().test();
+//        new LongestSubString().test();
 //        new TrieTree().test();
+        new BinaryTreeMirror().test();
+//        BinaryTreeUtil.printBinTree(BinaryTreeUtil.prepareANode2());
     }
 
     static class O {

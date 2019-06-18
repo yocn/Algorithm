@@ -31,7 +31,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  */
 public class LongestSubString {
     public static void test() {
-        LogUtil.Companion.d("i->" + lengthOfLongestSubstring("dvdfavcmkivd"));
+        LogUtil.Companion.d("i->" + lengthOfLongestSubstring("pwwkew"));
     }
 
     public static int lengthOfLongestSubstring(String s) {
