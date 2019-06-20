@@ -1,5 +1,8 @@
 import algorithm.LongestSubString;
+import algorithm.base.BinarySearch;
+import algorithm.base.sort.CountingSort;
 import algorithm.binaryTree.*;
+import util.LogUtil;
 
 import java.io.IOException;
 
@@ -157,7 +160,10 @@ public class Main {
 //        new BinaryTreeBFS().test();
 //        new LongestSubString().test();
 //        new TrieTree().test();
-        new BinaryTreeMirror().test();
+//        new BinaryTreeMirror().test();
+//        new CountingSort().test();
+        new BinarySearch().test();
+//        LogUtil.Companion.d(0 ^ 12);
 //        BinaryTreeUtil.printBinTree(BinaryTreeUtil.prepareANode2());
     }
 

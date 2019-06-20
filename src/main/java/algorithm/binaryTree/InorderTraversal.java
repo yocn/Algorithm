@@ -3,10 +3,7 @@ package algorithm.binaryTree;
 import algorithm.ITestInterface;
 import util.LogUtil;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by yocn on 2019/3/21.
@@ -17,6 +14,7 @@ public class InorderTraversal implements ITestInterface {
     public void test() {
         List<Integer> list = inorderTraversalReverse(initTreeNode());
         LogUtil.Companion.d("list->" + list.toString());
+        HashMap m;
     }
 
     /**
