@@ -78,15 +78,20 @@ public class BinaryTreeBFS implements ITestInterface {
 
     private void visitBFS(Queue<TreeNode> src) {
         Queue<TreeNode> tar = new ArrayDeque<>();
-        while (!src.isEmpty()) {
-            TreeNode node = src.peek();
+        if (src.size() == 0) {
+            return;
+        }
+        while (src.size() > 0) {
+            TreeNode node = src.poll();
             if (node.left != null) {
                 tar.add(node.left);
             }
             if (node.right != null) {
                 tar.add(node.right);
             }
+            LogUtil.Companion.d("node->" + node.val);
         }
         visitBFS(tar);
     }
+
 }

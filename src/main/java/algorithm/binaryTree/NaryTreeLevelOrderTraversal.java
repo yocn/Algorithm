@@ -3,10 +3,7 @@ package algorithm.binaryTree;
 import algorithm.ITestInterface;
 import util.LogUtil;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by yocn on 2019/3/21.
@@ -84,4 +81,19 @@ public class NaryTreeLevelOrderTraversal implements ITestInterface {
         root.children.get(1).children.add(new Node(6, null));
         return root;
     }
+
+    void visitBFS(Queue<TreeNode> queue) {
+        Queue<TreeNode> child = new ArrayDeque();
+        while (queue.size() > 0) {
+            TreeNode node = queue.poll();
+            if (node.left != null) {
+                child.add(node.left);
+            }
+            if (node.right != null) {
+                child.add(node.right);
+            }
+        }
+        visitBFS(child);
+    }
+
 }

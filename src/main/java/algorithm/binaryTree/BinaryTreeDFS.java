@@ -9,7 +9,7 @@ import java.util.*;
  * Created by yocn on 2019/3/21.
  * 二叉树的中序遍历
  */
-public class InorderTraversal implements ITestInterface {
+public class BinaryTreeDFS implements ITestInterface {
     @Override
     public void test() {
         List<Integer> list = inorderTraversalReverse(initTreeNode());

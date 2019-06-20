@@ -27,7 +27,6 @@ public class BinaryTreeUtil {
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-        root.right.left = new TreeNode(6);
         root.left.left.left = new TreeNode(6);
         root.left.left.left.left = new TreeNode(6);
         return root;
@@ -62,10 +61,10 @@ public class BinaryTreeUtil {
 
         StringBuilder sb = new StringBuilder();
         Queue<TreeNode> tar = new ArrayDeque<>();
-        String space = "";
-        for (int i = 0; i < src.size(); i++) {
-            space += " ";
-        }
+        String space = " ";
+//        for (int i = 0; i < src.size(); i++) {
+//            space += " ";
+//        }
         for (int i = 10; i > level; i--) {
             sb.append(" ");
         }

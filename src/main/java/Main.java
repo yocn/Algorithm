@@ -162,7 +162,9 @@ public class Main {
 //        new TrieTree().test();
 //        new BinaryTreeMirror().test();
 //        new CountingSort().test();
-        new BinarySearch().test();
+//        new BinarySearch().test();
+//        new BinaryTreeBFS().test();
+        new CompleteBinTreeAddNode().test();
 //        LogUtil.Companion.d(0 ^ 12);
 //        BinaryTreeUtil.printBinTree(BinaryTreeUtil.prepareANode2());
     }
