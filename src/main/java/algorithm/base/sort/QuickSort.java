@@ -26,6 +26,13 @@ public class QuickSort implements ITestInterface {
         quitSort(array, index + 1, right);
     }
 
+    /**
+     * 一遍遍历sort
+     * @param array 需要sort的array
+     * @param left 左指针
+     * @param right 右指针
+     * @return pivot的index
+     */
     public int sort(int[] array, int left, int right) {
         int pivotIndex = left;
         int pivot = array[pivotIndex];
@@ -40,6 +47,7 @@ public class QuickSort implements ITestInterface {
                     leftIndex++;
                 }
             } else {
+                //右指针比基准大，右指针左移
                 rightIndex--;
             }
         }

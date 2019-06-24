@@ -38,4 +38,22 @@ public class BinarySearch {
         }
         return array;
     }
+
+    public int binSearch(int[] src, int target) {
+        int low = 0, high, middle = 0;
+        high = src.length - 1;
+        middle = (low + high) / 2;
+        while (low < high) {
+            if (src[middle] < target) {
+                low = middle + 1;
+            } else if (src[middle] > target) {
+                high = middle - 1;
+            } else {
+                return middle;
+            }
+            middle = (low + high) / 2;
+        }
+        return -1;
+    }
+
 }

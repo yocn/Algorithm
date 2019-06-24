@@ -34,4 +34,19 @@ public class BubbleSort implements ITestInterface {
         }
     }
 
+    public void bubbleSort(int[] src) {
+        for (int i = 0; i < src.length - 1; i++) {
+            for (int j = 0; j < src.length - 1 - i; j++) {
+                if (src[j] < src[j + 1]) {
+                    int temp = src[j];
+                    src[j] = src[j + 1];
+                    src[j + 1] = temp;
+                }
+            }
+        }
+        for (int i : src) {
+            LogUtil.Companion.d("i->" + i);
+        }
+    }
+
 }
