@@ -3,9 +3,11 @@ import algorithm.base.BinarySearch;
 import algorithm.base.sort.BubbleSort;
 import algorithm.base.sort.CountingSort;
 import algorithm.binaryTree.*;
+import testJava.testStaticCodeLoad;
 import util.LogUtil;
 
 import java.io.IOException;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -165,11 +167,15 @@ public class Main {
 //        new CountingSort().test();
 //        new BinarySearch().test();
 //        new BinaryTreeBFS().test();
+//        new BinaryTreeDFS().test();
 //        new CompleteBinTreeAddNode().test();
-        new BubbleSort().bubbleSort(new int[]{1, 9, 2, 4, 7, 3, 7, 2, 7, 20, 1, 11, 12, 8});
-        LogUtil.Companion.d(new BinarySearch().binSearch(new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 9));
+//        new BubbleSort().bubbleSort(new int[]{1, 9, 2, 4, 7, 3, 7, 2, 7, 20, 1, 11, 12, 8});
+//        LogUtil.Companion.d(new BinarySearch().binSearch(new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 9));
 //        LogUtil.Companion.d(0 ^ 12);
 //        BinaryTreeUtil.printBinTree(BinaryTreeUtil.prepareANode2());
+        new testStaticCodeLoad().testSingleTon();
+
+        CountDownLatch latch;
     }
 
     static class O {

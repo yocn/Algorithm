@@ -18,7 +18,7 @@ public class BinaryTreeBFS implements ITestInterface {
 //        LogUtil.Companion.d(levelOrder(init()).toString());
         Queue<TreeNode> src = new ArrayDeque<>();
         src.add(init());
-        visitBFS(src);
+        BFS(src);
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -92,6 +92,21 @@ public class BinaryTreeBFS implements ITestInterface {
             LogUtil.Companion.d("node->" + node.val);
         }
         visitBFS(tar);
+    }
+
+    private void BFS(Queue<TreeNode> queue) {
+        if (queue.size() == 0) return;
+        Queue<TreeNode> temp = new ArrayDeque<>();
+        for (TreeNode node : queue) {
+            if (node.left != null) {
+                temp.add(node.left);
+            }
+            if (node.right != null) {
+                temp.add(node.right);
+            }
+            LogUtil.Companion.d("node->" + node.val);
+        }
+        BFS(temp);
     }
 
 }

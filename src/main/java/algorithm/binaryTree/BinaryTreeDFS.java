@@ -3,7 +3,10 @@ package algorithm.binaryTree;
 import algorithm.ITestInterface;
 import util.LogUtil;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
 
 /**
  * Created by yocn on 2019/3/21.
@@ -14,7 +17,8 @@ public class BinaryTreeDFS implements ITestInterface {
     public void test() {
         List<Integer> list = inorderTraversalReverse(initTreeNode());
         LogUtil.Companion.d("list->" + list.toString());
-        HashMap m;
+        BinaryTreeUtil.printBinTree(initTreeNode());
+        DFS(initTreeNode());
     }
 
     /**
@@ -56,23 +60,22 @@ public class BinaryTreeDFS implements ITestInterface {
         }
     }
 
+    public void DFS(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        LogUtil.Companion.d("node->" + node.val);
+        DFS(node.left);
+        DFS(node.right);
+    }
+
     public TreeNode initTreeNode() {
-//        TreeNode treeNode = new TreeNode(1);
-//        treeNode.left = new TreeNode(2);
-//        treeNode.left.right = new TreeNode(3);
         TreeNode treeNode = new TreeNode(1);
+        treeNode.left = new TreeNode(2);
+        treeNode.left.left = new TreeNode(3);
         treeNode.right = new TreeNode(2);
         treeNode.right.left = new TreeNode(3);
         return treeNode;
     }
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }
