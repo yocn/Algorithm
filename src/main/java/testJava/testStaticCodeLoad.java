@@ -17,8 +17,7 @@ public class testStaticCodeLoad {
     }
 
     public void testSingleTon() {
-        SingleTon singleTon = SingleTon.getInstance();
-        System.out.println("count1=" + singleTon.count1);
-        System.out.println("count2=" + singleTon.count2);
+        SingleTon singleTon = SingleTon.getInstance();  // ① 加载SingleTon类； ⑩ 调用getInstance()方法
+        System.out.println("count1=" + singleTon.count1 + "count2=" + singleTon.count2);
     }
 }
