@@ -1,13 +1,7 @@
-import algorithm.LongestSubString;
-import algorithm.base.BinarySearch;
-import algorithm.base.sort.BubbleSort;
-import algorithm.base.sort.CountingSort;
-import algorithm.binaryTree.*;
-import testJava.testStaticCodeLoad;
-import util.LogUtil;
+import algorithm.LongestChildString;
+import algorithm.XApple;
 
 import java.io.IOException;
-import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -173,41 +167,61 @@ public class Main {
 //        LogUtil.Companion.d(new BinarySearch().binSearch(new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 9));
 //        LogUtil.Companion.d(0 ^ 12);
 //        BinaryTreeUtil.printBinTree(BinaryTreeUtil.prepareANode2());
-        new testStaticCodeLoad().testSingleTon();
+//        new testStaticCodeLoad().testSingleTon();
 
-        CountDownLatch latch;
+//        new testArrayDeque().test();
+//        new testThreadLocal().test();
+//        new LongestChildString().test();
+        new XApple().test();
+//        LogUtil.Companion.d("" + (-1 % 8));
+//        LogUtil.Companion.d("" + (-10 % 16));
+//        LogUtil.Companion.d("" + (-10 & 15));
+//        LogUtil.Companion.d("" + (6 & 15));
+//        LogUtil.Companion.d("" + Integer.toBinaryString(6));
+//        LogUtil.Companion.d("" + Integer.toBinaryString(-10));
+//
+//        LogUtil.Companion.d("" + Integer.toBinaryString(-1));
+//        LogUtil.Companion.d("" + Integer.toBinaryString(-2));
+//        LogUtil.Companion.d("" + Integer.toBinaryString(-3));
+//        LogUtil.Companion.d("" + Integer.toBinaryString(-4));
+//        LogUtil.Companion.d("" + Integer.toBinaryString(-5));
+//        for (int i = -10; i <= 10; i++) {
+//            LogUtil.Companion.d(i + "   " + Integer.toBinaryString(i));
+//        }
+
     }
 
-    static class O {
-        public O(int x) {
-            this.x = x;
-        }
 
-        public int x;
-    }
-
-    public static void add(int x, int y) {
-        x++;
-        y++;
-    }
-
-    public static void add(Integer x, Integer y) {
-        x++;
-        y++;
-    }
-
-    public static void add(int[] x, int[] y) {
-        x[0] = 10;
-        y[0] = 10;
-    }
-
-    public static void add(String x, String y) {
-        x += "a";
-        y += "a";
-    }
-
-    public static void add(O x, O y) {
-        x.x++;
-        y.x++;
-    }
+//    static class O {
+//        public O(int x) {
+//            this.x = x;
+//        }
+//
+//        public int x;
+//    }
+//
+//    public static void add(int x, int y) {
+//        x++;
+//        y++;
+//    }
+//
+//    public static void add(Integer x, Integer y) {
+//        x++;
+//        y++;
+//    }
+//
+//    public static void add(int[] x, int[] y) {
+//        x[0] = 10;
+//        y[0] = 10;
+//    }
+//
+//    public static void add(String x, String y) {
+//        x += "a";
+//        y += "a";
+//    }
+//
+//    public static void add(O x, O y) {
+//        x.x++;
+//        y.x++;
+//    }
 }

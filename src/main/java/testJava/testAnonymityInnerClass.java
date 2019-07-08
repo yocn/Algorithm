@@ -6,21 +6,15 @@ import util.LogUtil;
  * Created by yocn on 2019/7/3.
  */
 public class testAnonymityInnerClass {
-    static {
-        LogUtil.Companion.d("testAnonymityInnerClass加载");
-    }
-    {
-        LogUtil.Companion.d("testAnonymityInnerClass 代码块");
-    }
 
     public void test() {
         InnerA innerA = new InnerA() {
             @Override
             public void InnerAmethodA() {
-                LogUtil.Companion.d("InnerAmethodA");
+                LogUtil.Companion.d("匿名内部类InnerAmethodA");
             }
         };
-        innerA.InnerAmethodA();
+//        innerA.InnerAmethodA();
         StaticInnerA staticInnerA = new StaticInnerA() {
 
             @Override
@@ -28,14 +22,24 @@ public class testAnonymityInnerClass {
                 LogUtil.Companion.d("staticInnerAmethodA");
             }
         };
-        staticInnerA.staticInnerAmethodA();
+//        staticInnerA.staticInnerAmethodA();
+    }
 
-//        ClassLoader classLoader = getClass().getClassLoader();
+    public testAnonymityInnerClass() {
+        LogUtil.Companion.d("构造方法");
+    }
+
+    static {
+        LogUtil.Companion.d("静态代码块 testAnonymityInnerClass加载");
+    }
+
+    {
+        LogUtil.Companion.d("代码块 testAnonymityInnerClass 代码块");
     }
 
     public class InnerA {
         {
-            LogUtil.Companion.d("InnerA 代码块");
+            LogUtil.Companion.d("内部类 InnerA 代码块");
         }
 
         public void InnerAmethodA() {
@@ -45,7 +49,7 @@ public class testAnonymityInnerClass {
 
     public static class StaticInnerA {
         static {
-            LogUtil.Companion.d("StaticInnerA 加载");
+            LogUtil.Companion.d("静态内部类 加载 静态代码块");
         }
 
         public void staticInnerAmethodA() {

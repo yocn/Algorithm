@@ -13,13 +13,22 @@ public class testThreadLocal {
     private static final AtomicInteger local = new AtomicInteger(0);
 
     private static final ThreadLocal<Integer> threadLocal = ThreadLocal.withInitial(() -> 0);
+    static Obj oo = new Obj(0);
+    private static final ThreadLocal<Obj> threadLocal1 = new ThreadLocal<Obj>(){
+        @Override
+        protected Obj initialValue() {
+            return oo;
+        }
+    };
 
     public void test() {
         Thread t1 = new Thread(() -> {
-            LogUtil.Companion.d("ThreadLocal线程1->" + repeat1(threadLocal, 10));
+            LogUtil.Companion.d("ThreadLocal线程1->" + repeat1(threadLocal1, 10));
+            LogUtil.Companion.d("ThreadLocal线程1->" + threadLocal1.get().hashCode());
         });
         Thread t2 = new Thread(() -> {
-            LogUtil.Companion.d("ThreadLocal线程2->" + repeat1(threadLocal, 20));
+            LogUtil.Companion.d("ThreadLocal线程2->" + repeat1(threadLocal1, 20));
+            LogUtil.Companion.d("ThreadLocal线程2->" + threadLocal1.get().hashCode());
 
         });
         Thread t3 = new Thread(() -> {
@@ -30,18 +39,27 @@ public class testThreadLocal {
         });
         t1.start();
         t2.start();
-        t3.start();
-        t4.start();
+//        t3.start();
+//        t4.start();
     }
 
-    private String repeat1(ThreadLocal<Integer> threadLocal, int repeat) {
+    public static class Obj {
+        int i;
+
+        public Obj(int i) {
+            this.i = i;
+        }
+    }
+
+    private String repeat1(ThreadLocal<Obj> threadLocal, int repeat) {
         int x = 0;
         StringBuilder sb = new StringBuilder();
         while (x < repeat) {
-            int index = threadLocal.get();
-            threadLocal.set(++index);
+            int index = threadLocal.get().i;
+            threadLocal.get().i = index += 1;
+            threadLocal.set(threadLocal.get());
             x++;
-            sb.append(index).append(" ");
+            sb.append(index).append(" ").append(threadLocal.get().hashCode()).append(" ");
         }
         return sb.toString();
     }

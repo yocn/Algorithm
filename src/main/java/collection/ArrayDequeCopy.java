@@ -519,6 +519,10 @@ public class ArrayDequeCopy<E> extends AbstractCollection<E>
     /**
      * Returns the number of elements in this deque.
      *
+     * tail = 数据A；
+     * head = length - 数据B -> 数据B = length + 1 - head
+     * 数据A + 数据B = tail +（length - head) = tail - head + length
+     *
      * @return the number of elements in this deque
      */
     public int size() {
