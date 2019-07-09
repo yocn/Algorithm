@@ -1,5 +1,6 @@
 import algorithm.LongestChildString;
 import algorithm.XApple;
+import algorithm.linked.FastSlowPointer;
 
 import java.io.IOException;
 
@@ -172,7 +173,7 @@ public class Main {
 //        new testArrayDeque().test();
 //        new testThreadLocal().test();
 //        new LongestChildString().test();
-        new XApple().test();
+        new FastSlowPointer().test();
 //        LogUtil.Companion.d("" + (-1 % 8));
 //        LogUtil.Companion.d("" + (-10 % 16));
 //        LogUtil.Companion.d("" + (-10 & 15));
