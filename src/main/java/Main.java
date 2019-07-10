@@ -1,6 +1,7 @@
 import algorithm.LongestChildString;
 import algorithm.XApple;
 import algorithm.linked.FastSlowPointer;
+import util.LogUtil;
 
 import java.io.IOException;
 
@@ -189,7 +190,6 @@ public class Main {
 //        for (int i = -10; i <= 10; i++) {
 //            LogUtil.Companion.d(i + "   " + Integer.toBinaryString(i));
 //        }
-
     }
 
 

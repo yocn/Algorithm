@@ -5,8 +5,8 @@ package algorithm.linked;
  * 单链表
  */
 public class SingleNode {
-    private int val;
-    private SingleNode next;
+    public int val;
+    public SingleNode next;
 
     public SingleNode(int val) {
         this.val = val;

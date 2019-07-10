@@ -56,9 +56,33 @@ public class NodeUtil {
         return false;
     }
 
-    public static void printASingleNodeList(SingleNode node) {
+    public static boolean hasLoop(SingleNode node) {
+        if (node == null || node.getNext() == null) {
+            return false;
+        }
+        SingleNode fast = node.getNext();
+        SingleNode slow = node;
+        while (fast != null) {
+            if (fast == slow) {
+                return true;
+            }
+            if (fast.getNext() != null) {
+                fast = fast.getNext().getNext();
+            } else {
+                return false;
+            }
+            slow = slow.getNext();
+        }
+        return false;
+    }
+
+    public static void printASingleNodeList(String TAG, SingleNode node) {
+        LogUtil.Companion.d(TAG + " " + printASingleNodeList(node));
+    }
+
+    public static String printASingleNodeList(SingleNode node) {
         if (isLinkedListLoop(node)) {
-            return;
+            return "链表有环";
         }
         StringBuilder sb = new StringBuilder();
         while (node != null) {
@@ -66,6 +90,6 @@ public class NodeUtil {
             node = node.getNext();
         }
         sb.append("null");
-        LogUtil.Companion.d(sb.toString());
+        return sb.toString();
     }
 }

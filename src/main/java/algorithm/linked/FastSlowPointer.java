@@ -21,25 +21,53 @@ public class FastSlowPointer {
         LogUtil.Companion.d("倒数第k个数->" + tarNode.getVal());
         testIntersect(root);
         testLoop(root);
+//        testMergeLinkedList();
+        testReverseLinkedList();
+        deleteLastNNode(root, 4);
     }
 
     private void testLoop(SingleNode root) {
-        root.getLevelNode(6).setNext(root.getLevelNode(4));
+        root.getLevelNode(7).setNext(root.getLevelNode(3));
         boolean isLoop = isLinkedListLoop(root);
         LogUtil.Companion.d("是否有环->" + isLoop);
+        SingleNode node = getEntrance(root);
+        LogUtil.Companion.d("环->" + node.getVal());
     }
 
     private void testIntersect(SingleNode root) {
-        SingleNode middleNode = NodeUtil.getNodeDeep(root, 5);
-        SingleNode rightNode = new SingleNode(0);
-        rightNode.setNext(new SingleNode(1));
-        rightNode.getNext().setNext(middleNode);
-        SingleNode node1 = getIntersect1(root, rightNode);
+//        SingleNode middleNode = NodeUtil.getNodeDeep(root, 5);
+//        SingleNode rightNode = new SingleNode(5);
+//        rightNode.setNext(new SingleNode(6));
+//        rightNode.getNext().setNext(middleNode);
+        SingleNode node8 = new SingleNode(8);
+        node8.next = new SingleNode(4);
+        node8.next.next = new SingleNode(5);
+        SingleNode left = new SingleNode(4);
+        left.next = new SingleNode(1);
+        left.next.next = node8;
+        SingleNode right = new SingleNode(5);
+        right.next = new SingleNode(0);
+        right.next.next = new SingleNode(1);
+        right.next.next.next = node8;
+        SingleNode node1 = getIntersectionNode(left, right);
         if (node1 == null) {
             LogUtil.Companion.d("不相交");
         } else {
             LogUtil.Companion.d("相交->" + node1.getVal());
         }
+    }
+
+    private void testMergeLinkedList() {
+        SingleNode left = NodeUtil.createASingleNodeList(8);
+        SingleNode right = NodeUtil.createASingleNodeList(3);
+        SingleNode result = merge2Node(left, right);
+        NodeUtil.printASingleNodeList("result", result);
+    }
+
+    private void testReverseLinkedList() {
+        SingleNode root = NodeUtil.createASingleNodeList(8);
+        SingleNode result = reverseLinkedList(root);
+        NodeUtil.printASingleNodeList("反转", result);
     }
 
     /**
@@ -49,7 +77,7 @@ public class FastSlowPointer {
      * @return 是否有环
      */
     private boolean isLinkedListLoop(SingleNode node) {
-        return NodeUtil.isLinkedListLoop(node);
+        return NodeUtil.hasLoop(node);
     }
 
     /**
@@ -64,15 +92,51 @@ public class FastSlowPointer {
         SingleNode slowPointer = node;
         int middle = 0;
         int index = 0;
-        while (fastPointer != null) {
+        while (fastPointer.getNext() != null) {
             fastPointer = fastPointer.getNext();
-            if (index > 0 && index % 2 == 0) {
+            index++;
+            if (index % 2 == 0) {
                 slowPointer = slowPointer.getNext();
                 middle++;
             }
-            index++;
         }
         return middle;
+    }
+
+    /**
+     * 合并两个链表
+     *
+     * @param leftNode  左
+     * @param rightNode 右
+     * @return
+     */
+    private SingleNode merge2Node(SingleNode leftNode, SingleNode rightNode) {
+        NodeUtil.printASingleNodeList("左", leftNode);
+        NodeUtil.printASingleNodeList("右", rightNode);
+        SingleNode result;
+        SingleNode temp;
+        if (leftNode == null) {
+            return rightNode;
+        } else if (rightNode == null) {
+            return leftNode;
+        } else {
+            if (leftNode.getVal() > rightNode.getVal()) {
+                result = rightNode;
+            } else {
+                result = leftNode;
+            }
+        }
+        while (leftNode.next != null || rightNode.next != null) {
+            NodeUtil.printASingleNodeList("-", result);
+            if (leftNode.val > rightNode.val) {
+                leftNode = result.next;
+                result = rightNode;
+            } else {
+                rightNode = result.next;
+                result = leftNode;
+            }
+        }
+        return result;
     }
 
     /**
@@ -98,6 +162,56 @@ public class FastSlowPointer {
             pointer++;
         }
         return slowNode;
+    }
+
+    /**
+     * 判断是否有环，如果有得到入口
+     * 思路：如果有环，快慢指针会相遇，这时候把快指针赋值给head，快慢指针同时加一，相遇的时候就是指针入口
+     *
+     * @param root head
+     * @return 入口Node
+     */
+    private SingleNode getEntrance(SingleNode root) {
+        SingleNode fast = root;
+        SingleNode slow = root;
+        boolean front = false;
+        while (fast != null && fast.getNext() != null) {
+            fast = fast.getNext().getNext();
+            slow = slow.getNext();
+            if (fast == slow) {
+                front = true;
+                break;
+            }
+        }
+        if (!front) {
+            return null;
+        }
+        slow = root;
+        while (slow != fast) {
+            slow = slow.getNext();
+            fast = fast.getNext();
+        }
+        return fast;
+    }
+
+    /**
+     * 翻转链表
+     * 思路：需要准备三个指针，
+     *
+     * @param node
+     * @return
+     */
+    private SingleNode reverseLinkedList(SingleNode node) {
+        SingleNode temp = node.next;
+        SingleNode newList = node;
+        newList.next = null;
+        while (temp != null) {
+            SingleNode pre = temp;
+            temp = temp.next;
+            pre.next = newList;
+            newList = pre;
+        }
+        return newList;
     }
 
     /**
@@ -132,5 +246,59 @@ public class FastSlowPointer {
             }
         }
         return null;
+    }
+
+    /**
+     * 两个链表是否相交
+     *
+     * @param headA 链表A
+     * @param headB 链表B
+     * @return 是否相交
+     */
+    private SingleNode getIntersectionNode(SingleNode headA, SingleNode headB) {
+        SingleNode fast = headA;
+        SingleNode slow = headB;
+        boolean endA = false;
+        boolean endB = false;
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+            if (!endA && fast == null) {
+                endA = true;
+                fast = headB;
+            }
+            if (!endB && slow == null) {
+                endB = true;
+                slow = headA;
+            }
+            if (endA && endB && fast == slow) {
+                return fast;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * 删除倒数第n个节点
+     * 思路：查找倒数第n个节点的基础上再加一个慢指针的父节点，找到第n个节点后删掉
+     *
+     * @param root 根节点
+     * @param n    需要删除的index
+     */
+    private void deleteLastNNode(SingleNode root, int n) {
+        SingleNode fast = root;
+        SingleNode slowParent = root;
+        SingleNode slow = root;
+        int index = 0;
+        while (fast.getNext() != null) {
+            fast = fast.getNext();
+            index++;
+            if (index >= n) {
+                slowParent = slow;
+                slow = slow.getNext();
+            }
+        }
+        slowParent.setNext(slow.getNext());
+        NodeUtil.printASingleNodeList(root);
     }
 }
