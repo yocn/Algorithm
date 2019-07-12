@@ -21,19 +21,19 @@ public class SingleLinkedList {
         SingleNode node2 = NodeUtil.createASingleNodeList(4);
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(node1));
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(node2));
-//        SingleNode result = reverseNode(merge(node1, node2));
-        SingleNode result = merge2(node1, node2);
+        SingleNode result = reverseNode(merge(node1, node2));
+//        SingleNode result = merge2(node1, node2);
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(result));
 
 
-        SingleNode root = new SingleNode(6);
-        root.next = new SingleNode(6);
-        root.next.next = new SingleNode(6);
-        root.next.next.next = new SingleNode(3);
-        root.next.next.next.next = new SingleNode(4);
-        root.next.next.next.next.next = new SingleNode(5);
-        root.next.next.next.next.next.next = new SingleNode(6);
-        LogUtil.Companion.d(NodeUtil.getASingleNodeList(removeElements(root, 6)));
+//        SingleNode root = new SingleNode(6);
+//        root.next = new SingleNode(6);
+//        root.next.next = new SingleNode(6);
+//        root.next.next.next = new SingleNode(3);
+//        root.next.next.next.next = new SingleNode(4);
+//        root.next.next.next.next.next = new SingleNode(5);
+//        root.next.next.next.next.next.next = new SingleNode(6);
+//        LogUtil.Companion.d(NodeUtil.getASingleNodeList(removeElements(root, 6)));
 
     }
 
@@ -96,6 +96,11 @@ public class SingleLinkedList {
         return preHead.next;
     }
 
+    /**
+     * 链表反转
+     * @param root
+     * @return
+     */
     private SingleNode reverseNode(SingleNode root) {
         if (root == null || root.next == null) {
             return root;
@@ -112,7 +117,7 @@ public class SingleLinkedList {
         return result;
     }
 
-    //合并两个顺序数组
+    //合并两个顺序数组，方式1：左右为null的时候继续往后遍历
     public SingleNode merge(SingleNode left, SingleNode right) {
         if (left == null) return right;
         if (right == null) return left;
@@ -147,6 +152,7 @@ public class SingleLinkedList {
         return newNode;
     }
 
+    //方式2：左右为null的时候直接break结束循环
     public SingleNode merge2(SingleNode left, SingleNode right) {
         if (left == null || right == null) return left == null ? right : left;
         SingleNode head = null;
@@ -186,5 +192,35 @@ public class SingleLinkedList {
         return head;
     }
 
+    //添加一个preHead指针，不在乎head是否为空
+    public SingleNode mergeTwoLists(SingleNode l1, SingleNode l2) {
+        SingleNode preHead = new SingleNode(0);
+        SingleNode node = preHead;
+
+        while (l1 != null || l2 != null) {
+            if (l1 == null) {
+                node.next = l2;
+                break;
+            }
+            if (l2 == null) {
+                node.next = l1;
+                break;
+            }
+            if (l1.val > l2.val) {
+                SingleNode temp = l2;
+                l2 = l2.next;
+                node.next = temp;
+                temp.next = null;
+                node = temp;
+            } else {
+                SingleNode temp = l1;
+                l1 = l1.next;
+                node.next = temp;
+                temp.next = null;
+                node = temp;
+            }
+        }
+        return preHead.next;
+    }
 
 }

@@ -104,6 +104,25 @@ public class FastSlowPointer {
     }
 
     /**
+     * 中间节点
+     *
+     * @param head
+     * @return
+     */
+    public SingleNode middleNode(SingleNode head) {
+        if (head == null) return null;
+        SingleNode fast = head, slow = head;
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (fast == null) {
+                return slow;
+            }
+        }
+        return slow;
+    }
+
+    /**
      * 合并两个链表
      *
      * @param leftNode  左
