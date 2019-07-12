@@ -3,7 +3,9 @@ package algorithm;
 import util.LogUtil;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by yocn on 2019/1/25.
@@ -33,6 +35,13 @@ public class LongestChildString {
         get("abcabcbb");
         get("pwwkew");
         get("bbbbbb");
+
+        int i1 = getLongestString("abcabcbb");
+//        int i2 = lengthOfLongestSubstring("pwwkew");
+//        int i3 = lengthOfLongestSubstring("bbbbbb");
+        LogUtil.Companion.d(i1);
+//        LogUtil.Companion.d(i2);
+//        LogUtil.Companion.d(i3);
     }
 
     public void get(String src) {
@@ -54,6 +63,39 @@ public class LongestChildString {
             }
         }
         LogUtil.Companion.d(longest.toString());
+    }
+
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length();
+        Set<Character> set = new HashSet<>();
+        int ans = 0, i = 0, j = 0;
+        while (i < n && j < n) {
+            // try to extend the range [i, j]
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j++));
+                ans = Math.max(ans, j - i);
+            } else {
+                set.remove(s.charAt(i++));
+            }
+            LogUtil.Companion.d("set->" + set.toString());
+        }
+        return ans;
+    }
+
+    public int getLongestString(String s) {
+        int max = 0;
+        int i = 0;
+        int j = 0;
+        Set<Character> sets = new HashSet<>();
+        while (i < s.length() && j < s.length()) {
+            if (!sets.contains(s.charAt(j))) {
+                sets.add(s.charAt(j++));
+                max = Math.max(max, j - i);
+            } else {
+                sets.remove(s.charAt(i++));
+            }
+        }
+        return max;
     }
 
 }

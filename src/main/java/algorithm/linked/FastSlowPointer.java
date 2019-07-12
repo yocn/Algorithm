@@ -14,7 +14,7 @@ import util.LogUtil;
 public class FastSlowPointer {
     public void test() {
         SingleNode root = NodeUtil.createASingleNodeList(8);
-        NodeUtil.printASingleNodeList(root);
+        NodeUtil.getASingleNodeList(root);
         int middle = getMiddleOfLinkedList(root);
         SingleNode tarNode = getReverseNumK(root, 4);
         LogUtil.Companion.d("中位数->" + middle);
@@ -299,6 +299,6 @@ public class FastSlowPointer {
             }
         }
         slowParent.setNext(slow.getNext());
-        NodeUtil.printASingleNodeList(root);
+        NodeUtil.getASingleNodeList(root);
     }
 }

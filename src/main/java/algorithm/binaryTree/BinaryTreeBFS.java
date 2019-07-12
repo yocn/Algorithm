@@ -16,9 +16,10 @@ public class BinaryTreeBFS implements ITestInterface {
     @Override
     public void test() {
 //        LogUtil.Companion.d(levelOrder(init()).toString());
-        Queue<TreeNode> src = new ArrayDeque<>();
-        src.add(init());
-        BFS(src);
+//        Queue<TreeNode> src = new ArrayDeque<>();
+//        src.add(init());
+//        BFS(src);
+        testAdd();
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -56,23 +57,17 @@ public class BinaryTreeBFS implements ITestInterface {
         }
     }
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public TreeNode init() {
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(9);
         root.right = new TreeNode(20);
         root.left.left = new TreeNode(1);
+        root.left.right = new TreeNode(2);
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
+        root.left.left.left = new TreeNode(1);
+        root.left.left.right = new TreeNode(1);
+        root.left.right.left = new TreeNode(7);
         return root;
     }
 
@@ -107,6 +102,54 @@ public class BinaryTreeBFS implements ITestInterface {
             LogUtil.Companion.d("node->" + node.val);
         }
         BFS(temp);
+    }
+
+    public void testAdd() {
+        TreeNode root2 = init();
+        BinaryTreeUtil.printBinTree(root2);
+        TreeNode[] nodes = new TreeNode[]{root2};
+        AddANode(nodes, new TreeNode(3));
+        BinaryTreeUtil.printBinTree(root2);
+    }
+
+    public void AddANode(TreeNode[] nodes, TreeNode target) {
+        if (nodes.length == 0) return;
+        if (nodes[0].left == null) {
+            nodes[0].left = target;
+            return;
+        }
+        boolean isLast = false;//最后一层
+        if (nodes[nodes.length - 1] == null || nodes[nodes.length - 1].left == null || nodes[nodes.length - 1].right == null) {
+            isLast = true;
+        }
+        LogUtil.Companion.d("list->" + nodes.length + " isLast->" + isLast);
+        if (isLast) {
+            int low = 0;
+            int high = nodes.length - 1;
+            int middle = (low + high) / 2;
+            while (low < high) {
+                LogUtil.Companion.d("low-" + low + " high->" + high);
+                if (nodes[middle].left == null) {
+                    high = middle;
+                } else if (nodes[middle].left != null && nodes[middle].right == null) {
+                    nodes[middle].right = target;
+                    return;
+                } else {
+                    low = middle;
+                }
+                if (nodes[low].right != null && nodes[high].left == null) {
+                    nodes[high].left = target;
+                    return;
+                }
+            }
+        } else {
+            TreeNode[] newNodes = new TreeNode[nodes.length * 2];
+            for (int i = 0; i < nodes.length; i++) {
+                newNodes[i * 2] = nodes[i].left;
+                newNodes[i * 2 + 1] = nodes[i].right;
+            }
+            AddANode(newNodes, target);
+        }
     }
 
 }

@@ -77,10 +77,10 @@ public class NodeUtil {
     }
 
     public static void printASingleNodeList(String TAG, SingleNode node) {
-        LogUtil.Companion.d(TAG + " " + printASingleNodeList(node));
+        LogUtil.Companion.d(TAG + " " + getASingleNodeList(node));
     }
 
-    public static String printASingleNodeList(SingleNode node) {
+    public static String getASingleNodeList(SingleNode node) {
         if (isLinkedListLoop(node)) {
             return "链表有环";
         }
@@ -91,5 +91,18 @@ public class NodeUtil {
         }
         sb.append("null");
         return sb.toString();
+    }
+
+    public static void printASingleNodeList(SingleNode node) {
+        if (isLinkedListLoop(node)) {
+            LogUtil.Companion.d("链表有环");
+        }
+        StringBuilder sb = new StringBuilder();
+        while (node != null) {
+            sb.append(node.getVal()).append("->");
+            node = node.getNext();
+        }
+        sb.append("null");
+        LogUtil.Companion.d(sb.toString());
     }
 }

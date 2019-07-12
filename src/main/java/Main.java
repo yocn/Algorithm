@@ -1,7 +1,4 @@
-import algorithm.LongestChildString;
-import algorithm.XApple;
-import algorithm.linked.FastSlowPointer;
-import util.LogUtil;
+import algorithm.linked.SingleLinkedList;
 
 import java.io.IOException;
 
@@ -174,7 +171,7 @@ public class Main {
 //        new testArrayDeque().test();
 //        new testThreadLocal().test();
 //        new LongestChildString().test();
-        new FastSlowPointer().test();
+//        new FastSlowPointer().test();
 //        LogUtil.Companion.d("" + (-1 % 8));
 //        LogUtil.Companion.d("" + (-10 % 16));
 //        LogUtil.Companion.d("" + (-10 & 15));
@@ -190,6 +187,8 @@ public class Main {
 //        for (int i = -10; i <= 10; i++) {
 //            LogUtil.Companion.d(i + "   " + Integer.toBinaryString(i));
 //        }
+//        new LongestChildString().test();
+        new SingleLinkedList().test();
     }
 
 

@@ -11,6 +11,7 @@ import util.LogUtil;
  */
 public class XApple {
     private static int num = 0;
+
     public void test() {
         eatApple(7, 0, "");
         LogUtil.Companion.d(num);
@@ -40,5 +41,19 @@ public class XApple {
             return;
         }
         eatApple(left, ++day, result);
+    }
+
+    private void eatApple(int x) {
+        eatAppleEveryDay(x, 1);
+        eatAppleEveryDay(x, 2);
+        eatAppleEveryDay(x, 3);
+    }
+
+    private void eatAppleEveryDay(int left, int everyDay) {
+        left -= everyDay;
+        if (left <= 0) {
+            return;
+        }
+        eatApple(left);
     }
 }

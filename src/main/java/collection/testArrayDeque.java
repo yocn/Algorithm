@@ -10,7 +10,7 @@ import java.util.ArrayDeque;
 public class testArrayDeque {
     public static void test() {
 
-//        LinkedList list;
+//        SingleLinkedList list;
 //        ArrayList l;
         ArrayDequeCopy<Integer> queue = new ArrayDequeCopy<>();
         for (int i = 0; i < 70; i++) {
