@@ -1,4 +1,6 @@
-import algorithm.linked.SingleLinkedList;
+import algorithm.XApple;
+import algorithm.stackQueue.Queue2Stack;
+import algorithm.stackQueue.Stack2Queue;
 
 import java.io.IOException;
 
@@ -188,7 +190,14 @@ public class Main {
 //            LogUtil.Companion.d(i + "   " + Integer.toBinaryString(i));
 //        }
 //        new LongestChildString().test();
-        new SingleLinkedList().test();
+//        new QuickSort().test();
+//        new CombineSort().test();
+//        new XApple().test();
+//        new Queue2Stack().test();
+        new Stack2Queue().test();
+//        new CompleteBinTreeAddNode().test();
+//        new MinStack().test();
+//        new SingleLinkedList().test();
     }
 
 

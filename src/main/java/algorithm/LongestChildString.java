@@ -87,7 +87,7 @@ public class LongestChildString {
         int i = 0;
         int j = 0;
         Set<Character> sets = new HashSet<>();
-        while (i < s.length() && j < s.length()) {
+        while (j < s.length()) {
             if (!sets.contains(s.charAt(j))) {
                 sets.add(s.charAt(j++));
                 max = Math.max(max, j - i);

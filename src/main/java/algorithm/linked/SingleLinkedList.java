@@ -1,6 +1,5 @@
 package algorithm.linked;
 
-import algorithm.binaryTree.TreeNode;
 import util.LogUtil;
 
 /**
@@ -9,7 +8,6 @@ import util.LogUtil;
  */
 public class SingleLinkedList {
     public void test() {
-
 
         SingleNode node3 = NodeUtil.createASingleNodeList(4);
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(node3));
@@ -21,8 +19,8 @@ public class SingleLinkedList {
         SingleNode node2 = NodeUtil.createASingleNodeList(4);
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(node1));
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(node2));
-        SingleNode result = reverseNode(merge(node1, node2));
-//        SingleNode result = merge2(node1, node2);
+        SingleNode result = reverseNode(mergeTwoLists(node1, node2));
+//        SingleNode result = mergeTwoLists(node1, node2);
         LogUtil.Companion.d(NodeUtil.getASingleNodeList(result));
 
 
@@ -98,6 +96,7 @@ public class SingleLinkedList {
 
     /**
      * 链表反转
+     *
      * @param root
      * @return
      */
@@ -193,32 +192,24 @@ public class SingleLinkedList {
     }
 
     //添加一个preHead指针，不在乎head是否为空
-    public SingleNode mergeTwoLists(SingleNode l1, SingleNode l2) {
-        SingleNode preHead = new SingleNode(0);
-        SingleNode node = preHead;
-
+    private SingleNode mergeTwoLists(SingleNode l1, SingleNode l2) {
+        SingleNode preHead = new SingleNode(0), node = preHead;
         while (l1 != null || l2 != null) {
-            if (l1 == null) {
-                node.next = l2;
+            if (l1 == null || l2 == null) {
+                node.next = (l1 == null ? l2 : l1);
                 break;
             }
-            if (l2 == null) {
-                node.next = l1;
-                break;
-            }
+            SingleNode temp;
             if (l1.val > l2.val) {
-                SingleNode temp = l2;
+                temp = l2;
                 l2 = l2.next;
-                node.next = temp;
-                temp.next = null;
-                node = temp;
             } else {
-                SingleNode temp = l1;
+                temp = l1;
                 l1 = l1.next;
-                node.next = temp;
-                temp.next = null;
-                node = temp;
             }
+            node.next = temp;
+            temp.next = null;
+            node = temp;
         }
         return preHead.next;
     }

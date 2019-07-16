@@ -2,6 +2,7 @@ package algorithm.base.sort;
 
 import algorithm.ITestInterface;
 import algorithm.base.Constants;
+import util.LogUtil;
 
 /**
  * Created by yocn on 2019/3/20.
@@ -12,9 +13,114 @@ import algorithm.base.Constants;
 public class QuickSort implements ITestInterface {
     @Override
     public void test() {
-        int[] sort = {4, 7, 6, 5, 3, 2, 8, 1};
-//        quitSort(sort, 0, sort.length - 1);
-        quitSort(Constants.src, 0, Constants.src.length - 1);
+        int[] sort = {4, 6, 1, 3, 2, 7, 9, 5};
+        topKort(sort, 0, sort.length - 1, 6);
+//        quickSort(sort, 0, sort.length - 1);
+//        quickSort(Constants.src, 0, Constants.src.length - 1);
+    }
+
+    //返回topK
+    private void topKort(int src[], int left, int right, int k) {
+        if (k == src.length) {
+            return;
+        }
+        if (left == right) {
+            int[] result = new int[k];
+            System.arraycopy(src, 0, result, 0, k);
+            LogUtil.Companion.d("index221112->" + " " + left + "/" + right);
+            Constants.printInts(result);
+            return;
+        }
+        int index = sortBig(src, left, right);
+        LogUtil.Companion.d("index->" + index + " " + left + "/" + right);
+        if (index > k - 1) {
+            topKort(src, left, index - 1, k);
+        } else if (index < k - 1) {
+            topKort(src, index + 1, right, k);
+        } else {
+            int[] result = new int[k];
+            System.arraycopy(src, 0, result, 0, k);
+            LogUtil.Companion.d("index222->" + index + " " + left + "/" + right);
+            Constants.printInts(result);
+        }
+    }
+
+    //从大到小排序
+    private int sortBig(int[] src, int left, int right) {
+        int pivotIndex = left;
+        int pivot = src[pivotIndex];
+        left++;
+        while (left < right) {
+            if (src[right] > pivot) {
+                if (src[left] < pivot) {
+                    swap(src, left, right);
+                } else {
+                    left++;
+                }
+            } else {
+                right--;
+            }
+        }
+        swap(src, pivotIndex, left);
+        Constants.printInts(src);
+        return left;
+    }
+
+    //快排
+    public void quickSort(int[] src, int i, int j) {
+        if (i >= j) {
+            Constants.printInts(src, 0);
+            return;
+        }
+        int index = sort2(src, i, j);
+        quickSort(src, i, index - 1);
+        quickSort(src, index + 1, j);
+    }
+
+    public int sort2(int[] src, int left, int right) {
+        int pivotIndex = left;
+        int pivot = src[pivotIndex];
+        left++;
+        while (left < right) {
+            if (src[right] < pivot) {
+                if (src[left] > pivot) {
+                    swap(src, left, right);
+                } else {
+                    left++;
+                }
+            } else {
+                right--;
+            }
+        }
+        swap(src, pivotIndex, left);
+        return left;
+    }
+
+    private void quickSort1(int[] src, int left, int right) {
+        if (left == right) return;
+        int index = sort1(src, left, right);
+        quickSort1(src, left, index - 1);
+        quickSort1(src, index + 1, right);
+    }
+
+    private int sort1(int[] src, int start, int end) {
+        int left = start;
+        int right = end;
+        int pivot = start;
+        while (left < right) {
+            if (src[right] < src[pivot]) {
+                if (src[left] > src[pivot]) {
+                    swap(src, left, right);
+                } else {
+                    left++;
+                }
+            } else {
+                right--;
+            }
+        }
+        swap(src, pivot, left);
+        Constants.printInts(src, left);
+        return left;
     }
 
     public void quitSort(int[] array, int left, int right) {
@@ -28,8 +134,9 @@ public class QuickSort implements ITestInterface {
 
     /**
      * 一遍遍历sort
+     *
      * @param array 需要sort的array
-     * @param left 左指针
+     * @param left  左指针
      * @param right 右指针
      * @return pivot的index
      */

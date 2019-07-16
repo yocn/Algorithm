@@ -2,6 +2,9 @@ package algorithm;
 
 import util.LogUtil;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by yocn on 2019/7/8.
  * x个苹果，一天只能吃一个、两个、或者三个，问多少天可以吃完
