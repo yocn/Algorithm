@@ -7,7 +7,7 @@ import util.LogUtil;
  * Created by yocn on 2019/7/16.
  * 归并排序
  */
-public class CombineSort {
+public class MergeSort {
     public void test() {
         int[] src = new int[]{11, 8, 9, 3, 7, 2, 5, 4, 1};
         Constants.printInts(src);

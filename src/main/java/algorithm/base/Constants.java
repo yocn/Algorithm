@@ -15,7 +15,12 @@ public class Constants {
             sb.append(s);
         }
         for (int i : ints) {
-            sb.append(i).append(" ");
+            sb.append(i);
+            if (i >= 0 && i < 10) {
+                sb.append("  ");
+            } else {
+                sb.append(" ");
+            }
         }
 
         LogUtil.Companion.d(sb.toString());

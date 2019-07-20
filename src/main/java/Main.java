@@ -1,8 +1,15 @@
 import algorithm.XApple;
+import algorithm.monotoneStack.MinLeftNum;
+import algorithm.other.HammingDistance;
+import algorithm.other.SortArray;
 import algorithm.stackQueue.Queue2Stack;
 import algorithm.stackQueue.Stack2Queue;
+import lock.ProducerAndCustomer;
+import structure.testLinkedList;
+import util.LogUtil;
 
 import java.io.IOException;
+import java.util.*;
 
 /**
  * Created by yocn on 2018/12/4.
@@ -191,14 +198,20 @@ public class Main {
 //        }
 //        new LongestChildString().test();
 //        new QuickSort().test();
-//        new CombineSort().test();
+//        new MergeSort().test();
 //        new XApple().test();
 //        new Queue2Stack().test();
-        new Stack2Queue().test();
+//        new Stack2Queue().test();
+//        new ProducerAndCustomer().test();
+//        new testLinkedList().test();
 //        new CompleteBinTreeAddNode().test();
 //        new MinStack().test();
 //        new SingleLinkedList().test();
+//        new HammingDistance().test();
+//        new SortArray().test();
+        new MinLeftNum().test();
     }
+
 
 
 //    static class O {
