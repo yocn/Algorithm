@@ -1,5 +1,7 @@
 import algorithm.XApple;
+import algorithm.monotoneStack.BadHairCows;
 import algorithm.monotoneStack.MinLeftNum;
+import algorithm.monotoneStack.StageWater;
 import algorithm.other.HammingDistance;
 import algorithm.other.SortArray;
 import algorithm.stackQueue.Queue2Stack;
@@ -209,7 +211,9 @@ public class Main {
 //        new SingleLinkedList().test();
 //        new HammingDistance().test();
 //        new SortArray().test();
-        new MinLeftNum().test();
+//        new MinLeftNum().test();
+//        new BadHairCows().test();
+        new StageWater().test();
     }
 
 
