@@ -1,3 +1,6 @@
+import algorithm.PrefixSum.BestWorkTime;
+import algorithm.PrefixSum.CommonPrefix;
+import algorithm.PrefixSum.MinM;
 import algorithm.XApple;
 import algorithm.monotoneStack.BadHairCows;
 import algorithm.monotoneStack.MinLeftNum;
@@ -213,7 +216,10 @@ public class Main {
 //        new SortArray().test();
 //        new MinLeftNum().test();
 //        new BadHairCows().test();
-        new StageWater().test();
+//        new StageWater().test();
+//        new CommonPrefix().test();
+//        new MinM().test();
+        new BestWorkTime().test();
     }
 
 

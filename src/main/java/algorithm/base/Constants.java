@@ -26,6 +26,26 @@ public class Constants {
         LogUtil.Companion.d(sb.toString());
     }
 
+    public static void printInts(int[][] ints, Object... tags) {
+        StringBuilder sb = new StringBuilder();
+        for (Object s : tags) {
+            sb.append(s);
+        }
+        for (int[] ii : ints) {
+            for (int i : ii) {
+                sb.append(i);
+                if (i >= 0 && i < 10) {
+                    sb.append("  ");
+                } else {
+                    sb.append(" ");
+                }
+            }
+            sb.append("\n");
+        }
+
+        LogUtil.Companion.d(sb.toString());
+    }
+
     public static void printInts(int[] ints, int left, int right) {
         StringBuilder sb = new StringBuilder();
         for (int i = left; i <= right; i++) {
