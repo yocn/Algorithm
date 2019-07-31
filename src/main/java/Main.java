@@ -12,6 +12,7 @@ import algorithm.stackQueue.Stack2Queue;
 import lock.ProducerAndCustomer;
 import structure.testLinkedList;
 import util.LogUtil;
+import zipFileTest.testZipFile;
 
 import java.io.IOException;
 import java.util.*;
@@ -219,10 +220,9 @@ public class Main {
 //        new StageWater().test();
 //        new CommonPrefix().test();
 //        new MinM().test();
-        new BestWorkTime().test();
+//        new BestWorkTime().test();
+        new testZipFile().test();
     }
-
-
 
 //    static class O {
 //        public O(int x) {
